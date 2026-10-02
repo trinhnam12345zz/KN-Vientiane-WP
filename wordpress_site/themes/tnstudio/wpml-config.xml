@@ -1,0 +1,16 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">du-an</custom-type>
+    <custom-type translate="1">linh-vuc-hoat-dong</custom-type>
+    <custom-type translate="1">tuyen-dung</custom-type>
+    <custom-type translate="1">web-builder</custom-type>
+    <custom-type translate="1">wpcf7_contact_form</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">danh-muc-du-an</taxonomy>
+    <taxonomy translate="1">vi-tri-tuyen-dung</taxonomy>
+    <taxonomy translate="1">dia-diem-tuyen-dung</taxonomy>
+    <taxonomy translate="1">category</taxonomy>
+    <taxonomy translate="1">post_tag</taxonomy>
+  </taxonomies>
+</wpml-config>

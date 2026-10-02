@@ -1,0 +1,31 @@
+# Large backup files (>100MB)
+*.wpress
+*.tar.gz
+*.zip
+*.sql.gz
+*.mp4
+*.mov
+*.avi
+
+# WordPress logs & debug files
+*.log
+debug.log
+**/debug.log
+
+# Cache directories
+uploads/cache/
+**/uploads/cache/
+wordpress_site/uploads/cache/
+
+# Redundant unpack folders
+extracted/
+staging/
+tools_backup/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.tmp
+.vscode/
+.idea/
+

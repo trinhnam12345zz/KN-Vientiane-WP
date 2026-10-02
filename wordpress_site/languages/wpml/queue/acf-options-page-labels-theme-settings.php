@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Thiết lập theme'=>['urls'=>[],'names'=>['options-page-theme-settings-page_title-60956c4bd4486730d8d4cafd48f05b6b','options-page-theme-settings-menu_title-60956c4bd4486730d8d4cafd48f05b6b'],'cmp'=>['wpml-string-translation',1]],'Cập nhật'=>['urls'=>[],'names'=>['options-page-theme-settings-update_button-3b7db4b6d510cc3156e3acf4365e7a74'],'cmp'=>['wpml-string-translation',1]],'Options Updated'=>['urls'=>[],'names'=>['options-page-theme-settings-updated_message-175309035a73fe39362540d67a497553'],'cmp'=>['wpml-string-translation',1]]]];

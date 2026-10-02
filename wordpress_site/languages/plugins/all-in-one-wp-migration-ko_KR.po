@@ -1,0 +1,1303 @@
+# Translation of Plugins - All-in-One WP Migration and Backup - Stable (latest release) in Korean
+# This file is distributed under the same license as the Plugins - All-in-One WP Migration and Backup - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-02-10 15:47:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: ko_KR\n"
+"Project-Id-Version: Plugins - All-in-One WP Migration and Backup - Stable (latest release)\n"
+
+#: lib/view/common/leave-feedback.php:64
+msgid "I agree to let All-in-One WP Migration use my <strong>email</strong> to respond to my request."
+msgstr "올인원 WP 마이그레이션이 내 요청에 응답하기 위해 내 <strong>이메일</strong>을 사용하도록 허용하는 데 동의합니다."
+
+#: lib/model/import/class-ai1wm-import-upload.php:186
+msgid ""
+"An unknown error (code: %s) occurred during the file upload. The process cannot continue.\n"
+"\t\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"파일을 업로드하는 동안 알 수 없는 오류(코드: %s)가 발생했습니다. 프로세스를 계속할 수 없습니다.\n"
+"\t\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:171
+msgid ""
+"A PHP extension blocked this file upload. The process cannot continue.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"PHP 확장자가 이 파일 업로드를 차단했습니다. 프로세스를 계속할 수 없습니다.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:158
+msgid ""
+"Could not save the uploaded file. Please check file permissions and try again.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"업로드한 파일을 저장할 수 없습니다. 파일 권한을 확인한 후 다시 시도하세요.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:145
+msgid ""
+"No temporary folder is available on the server. The process cannot continue.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"서버에 임시 폴더를 사용할 수 없습니다. 프로세스를 계속할 수 없습니다.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:132
+msgid ""
+"The uploaded file is too large for this server. The process cannot continue.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"업로드한 파일이 이 서버에 비해 너무 큽니다. 프로세스를 계속할 수 없습니다.\n"
+"\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:111
+msgid ""
+"Could not upload the file because %s. The process cannot continue.\n"
+"\t\t\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"%s 때문에 파일을 업로드할 수 없습니다. 프로세스를 계속할 수 없습니다.\n"
+"\t\t\t\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:89
+msgid ""
+"Invalid file data. Please ensure your file is a <strong>.wpress</strong> backup created with All-in-One WP Migration.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"잘못된 파일 데이터입니다. 파일이 올인원 WP 마이그레이션으로 만든 <strong>.wpress</strong> 백업인지 확인하세요.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:59
+msgid ""
+"The uploaded file is missing an error code. The process cannot continue.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"업로드한 파일에 오류 코드가 누락되었습니다. 프로세스를 계속할 수 없습니다.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-upload.php:42
+msgid ""
+"The uploaded file is missing a temporary path. The process cannot continue.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"업로드한 파일에 임시 경로가 누락되었습니다. 프로세스를 계속할 수 없습니다.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/upload-file-error/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/view/export/advanced-settings.php:134
+msgid "Exclude plugins"
+msgstr "플러그인 제외"
+
+#: lib/view/export/advanced-settings.php:127
+msgid "Exclude must-use plugins"
+msgstr "must-use 플러그인 제외"
+
+#: lib/view/export/advanced-settings.php:118
+msgid "Exclude themes"
+msgstr "테마 제외"
+
+#: lib/view/export/advanced-settings.php:112
+msgid "Exclude media library"
+msgstr "미디어 라이브러리 제외"
+
+#: lib/view/export/advanced-settings.php:108
+msgid "File Options"
+msgstr "파일 옵션"
+
+#: lib/view/export/advanced-settings.php:89
+msgid "Exclude database"
+msgstr "데이터베이스 제외"
+
+#: lib/view/export/advanced-settings.php:73
+msgid "Database Options"
+msgstr "데이터베이스 옵션"
+
+#: lib/view/export/advanced-settings.php:41
+msgid "Security Options"
+msgstr "보안 옵션"
+
+#. translators: 1: Link to archive, 2: Archive title, 3: File name, 4: Archive
+#. title, 5: File size.
+#: lib/model/export/class-ai1wm-export-download.php:73
+msgid ""
+"<a href=\"%1$s\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-button-download\" title=\"%2$s\" download=\"%3$s\">\n"
+"\t\t\t\t\t\t\t<span>Download %2$s</span>\n"
+"\t\t\t\t\t\t\t<em>Size: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+msgstr ""
+"<a href=\"%1$s\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-button-download\" title=\"%2$s\" download=\"%3$s\">\n"
+"\t\t\t\t\t\t\t<span>다운로드 %2$s</span>\n"
+"\t\t\t\t\t\t\t<em>크기: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+
+#. Plugin Name of the plugin
+#: all-in-one-wp-migration.php
+msgid "All-in-One WP Migration and Backup"
+msgstr "All-in-One WP Migration and Backup"
+
+#. translators: 1: Admin url, 2: Url
+#: lib/view/import/done.php:50
+msgid ""
+"» <a class=\"ai1wm-no-underline\" href=\"%1$s\" target=\"_blank\">Save permalinks structure</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%2$s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr "<a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">퍼머링크 구조 저장</a><br />» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">마이그레이션 경험 검토</a><br />» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">실시간 위협 보호로 사이트 보호</a>"
+
+#. translators: Url
+#: lib/view/import/avada.php:51
+msgid "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr "<a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">P실시간 위협 보호로 사이트 보호</a>"
+
+#: lib/view/main/multisite-notice.php:36
+msgid "WordPress Multisite requires our All-in-One WP Migration Multisite Extension. Get it here: "
+msgstr "워드프레스 멀티사이트에는 올인원 WP 마이그레이션 멀티사이트 확장이 필요합니다. 여기에서 다운로드하세요:"
+
+#. translators: Backups folder path.
+#. translators: Storage folder path.
+#: lib/view/main/backups-path-notice.php:39
+#: lib/view/main/storage-path-notice.php:39
+msgid "Could not create <strong>%s</strong> folder. Please ensure the parent folder has read/write/execute permissions (0777)."
+msgstr "<strong>%s</strong> 폴더를 만들 수 없습니다. 상위 폴더에 읽기/쓰기/실행 권한이 있는지 확인하세요(0777)."
+
+#. translators: File name.
+#: lib/view/main/backups-htaccess-notice.php:39
+#: lib/view/main/backups-index-html-notice.php:39
+#: lib/view/main/backups-index-php-notice.php:39
+#: lib/view/main/backups-robots-txt-notice.php:39
+#: lib/view/main/backups-webconfig-notice.php:39
+#: lib/view/main/storage-htaccess-notice.php:39
+#: lib/view/main/storage-index-html-notice.php:39
+#: lib/view/main/storage-index-php-notice.php:39
+#: lib/view/main/storage-webconfig-notice.php:39
+#: lib/view/main/wordpress-htaccess-notice.php:39
+msgid "Could not create <strong>%s</strong> file. Please ensure the parent folder has read/write permissions."
+msgstr "<strong>%s</strong> 파일을 만들 수 없습니다. 상위 폴더에 읽기/쓰기 권한이 있는지 확인하세요."
+
+#. translators: Max upload file size
+#: lib/view/import/pro.php:38
+msgid "Your host restricts uploads to <strong>%s</strong>."
+msgstr "호스트가 업로드를 <strong>%s</strong>로 제한합니다."
+
+#. translators: 1: Admin url, 2: Url
+#: lib/view/import/oxygen.php:51
+msgid ""
+"» <a class=\"ai1wm-no-underline\" href=\"%1$s\" target=\"_blank\">Save permalinks structure</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Re-sign Oxygen Builder shortcodes</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%2$s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">퍼머링크 구조 저장</a>.<br />» <a class=\"ai1wm-no-underline\" href=\"https://oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Oxygen 빌더 단축 코드 다시 서명하기</a>.<br />» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">마이그레이션 경험 검토</a>.<br />» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">P실시간 위협 보호로 사이트 보호</a>"
+
+#. translators: Url
+#: lib/view/import/oxygen.php:36
+msgid ""
+"» Permalinks are set to default. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Re-sign Oxygen Builder shortcodes</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr "\" 퍼머링크가 기본값으로 설정되어 있습니다. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">왜요? </a><br />\" <a class=\"ai1wm-no-underline\" href=\"https://oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Oxygen Builder 단축코드 다시 서명</a>.<br />\" <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">마이그레이션 경험 검토</a>.<br />\" 자동 백업으로 사이트를 보호 - <a href=\"%s\" target=\"_blank\">무제한 확장</a>으로 업그레이드하세요."
+
+#. translators: Url
+#: lib/view/import/done.php:36
+msgid ""
+"» Permalinks are set to default. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />\n"
+"\t\t\t\t» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Protect your site with real-time threat protection</a>"
+msgstr "\" 퍼머링크가 기본값으로 설정되어 있습니다. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">왜? </a><br />\" <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">마이그레이션 경험 검토</a>.<br />\" 자동 백업으로 사이트를 보호 - <a href=\"%s\" target=\"_blank\">무제한 확장</a>으로 업그레이드하세요."
+
+#: lib/view/import/avada.php:47
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">Review your migration experience</a>.<br />"
+msgstr "\" <a class=\"ai1wm-no-underline\" href=\"https://wordpress.org/support/view/plugin-reviews/all-in-one-wp-migration?rate=5#postform\" target=\"_blank\">마이그레이션 경험 검토</a>.<br />"
+
+#. translators: Url
+#: lib/view/import/avada.php:37
+msgid "» <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">Save permalinks structure</a>.<br />"
+msgstr "\" <a class=\"ai1wm-no-underline\" href=\"%s\" target=\"_blank\">퍼머링크 구조 저장</a>.<br />"
+
+#: lib/view/export/help-section.php:38
+msgid "Hints"
+msgstr "힌트"
+
+#: lib/view/export/help-section.php:34
+msgid "Use this screen to export your database, media, themes, and plugins into one .wpress file. Later, import that file to another WordPress site."
+msgstr "이 화면을 사용하여 데이터베이스, 미디어, 테마, 플러그인을 하나의 .wpress 파일로 내보낼 수 있습니다. 나중에 해당 파일을 다른 워드프레스 사이트로 가져옵니다."
+
+#: lib/view/export/find-replace.php:37 lib/view/export/find-replace.php:46
+msgid "Search for"
+msgstr "검색"
+
+#: lib/view/export/export-buttons.php:37
+msgid "Export Site To"
+msgstr "내보내기 사이트 대상"
+
+#: lib/view/export/advanced-settings.php:83
+msgid "Exclude post revisions"
+msgstr "게시물 리비전 제외"
+
+#: lib/view/export/advanced-settings.php:77
+msgid "Exclude spam comments"
+msgstr "스팸 댓글 제외"
+
+#: lib/view/common/leave-feedback.php:59
+msgid "Describe your issue or feedback..."
+msgstr "문제 또는 피드백을 설명해 주세요..."
+
+#: lib/view/common/leave-feedback.php:56
+msgid "Email address"
+msgstr "이메일 주소"
+
+#: lib/view/common/leave-feedback.php:49
+msgid "I need help"
+msgstr "도움이 필요합니다"
+
+#: lib/view/common/leave-feedback.php:40
+msgid "I have an idea"
+msgstr "아이디어가 있습니다."
+
+#: lib/view/backups/index.php:54
+msgid "No backups found. Create a new one?"
+msgstr "백업을 찾을 수 없습니다. 새로 생성하시겠습니까?"
+
+#: lib/view/backups/backups-list.php:96
+msgid "Over 2GB"
+msgstr "2GB 이상"
+
+#: lib/view/backups/backups-list.php:72
+msgid "Click to label this backup"
+msgstr "이 백업에 레이블을 지정하려면 클릭하세요."
+
+#: lib/model/import/class-ai1wm-import-validate.php:40
+msgid ""
+"Your server uses 32-bit PHP and cannot process files larger than 2GB. Please switch to 64-bit PHP and try again.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Technical details</a>"
+msgstr "서버가 32비트 PHP를 사용하며 2GB보다 큰 파일을 처리할 수 없습니다. 64비트 PHP로 전환한 후 다시 시도하세요. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-users.php:66
+msgid "WordPress users prepared."
+msgstr "워드프레스 사용자는 준비하세요."
+
+#: lib/model/import/class-ai1wm-import-users.php:40
+msgid "Preparing WordPress users..."
+msgstr "워드프레스 사용자 준비하기..."
+
+#: lib/model/import/class-ai1wm-import-upload.php:74
+#: lib/model/import/class-ai1wm-import-validate.php:54
+msgid ""
+"Invalid file type. Please ensure your file is a <strong>.wpress</strong> backup created with All-in-One WP Migration.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Technical details</a>"
+msgstr "잘못된 파일 형식입니다. 파일이 올인원 WP 마이그레이션으로 만든 <strong>.wpress</strong> 백업인지 확인하세요. <a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-permalinks.php:44
+msgid "WordPress permalinks settings retrieved."
+msgstr "워드프레스 퍼머링크 설정이 검색되었습니다."
+
+#: lib/model/import/class-ai1wm-import-options.php:75
+msgid "WordPress options prepared."
+msgstr "워드프레스 옵션이 준비되었습니다."
+
+#: lib/model/import/class-ai1wm-import-options.php:36
+msgid "Preparing WordPress options..."
+msgstr "워드프레스 옵션 준비하기..."
+
+#: lib/model/import/class-ai1wm-import-mu-plugins.php:89
+msgid "Mu-plugins activated."
+msgstr "필수 플러그인(mu-plugins)이 활성화되었습니다."
+
+#: lib/model/import/class-ai1wm-import-enumerate.php:52
+msgid "WordPress files gathered."
+msgstr "워드프레스 파일이 수집됨."
+
+#: lib/model/import/class-ai1wm-import-enumerate.php:37
+msgid "Gathering WordPress files..."
+msgstr "워드프레스 파일 수집하기..."
+
+#: lib/model/import/class-ai1wm-import-database.php:1016
+msgid "Database restored."
+msgstr "데이터베이스가 복원되었습니다."
+
+#. translators: Link to Unlimited Extension
+#: lib/model/import/class-ai1wm-import-confirm.php:69
+msgid ""
+"Importing this file will only replace matching content. Other items stay unchanged.\n"
+"\t\t\t\t\tNeed a full reset first? Try Reset Hub in our <a href=\"%s\" target=\"_blank\">Unlimited Extension</a>.<br />\n"
+"\t\t\t\t\tEnsure you have a current backup. Proceed?"
+msgstr ""
+"이 파일을 가져오면 일치하는 콘텐츠만 바뀝니다. 다른 항목은 변경되지 않습니다.\n"
+"\t\t\t\t\t먼저 전체 재설정이 필요하신가요? <a href=\"%s\" target=\"_blank\">Unlimited Extension</a>에서 Reset Hub를 사용해 보세요.<br />\n"
+"\t\t\t\t\t현재 백업이 있는지 확인하세요. 계속하시겠습니까?"
+
+#. translators: Link to Unlimited Extension
+#: lib/model/import/class-ai1wm-import-confirm.php:58
+msgid ""
+"Importing this file will only replace matching content. Other items stay unchanged.\n"
+"\t\t\t\t\tNeed a full reset first? Try Reset Hub in our Unlimited Extension (%s).\n"
+"\t\t\t\t\tEnsure you have a current backup. Proceed?"
+msgstr ""
+"이 파일을 가져오면 일치하는 콘텐츠만 바뀝니다. 다른 항목은 변경되지 않습니다.\n"
+"\t\t\t\t\t먼저 전체 재설정이 필요하신가요? Unlimited Extension(%s)에서 Reset Hub를 사용해 보세요.\n"
+"\t\t\t\t\t현재 백업이 있는지 확인하세요. 계속하시겠습니까?"
+
+#: lib/controller/class-ai1wm-backups-controller.php:304
+#: lib/model/import/class-ai1wm-import-check-encryption.php:82
+msgid "The decryption password is not valid. The process cannot continue."
+msgstr "암호 해독 비밀번호가 유효하지 않습니다. 프로세스를 계속할 수 없습니다."
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:77
+msgid "Decryption password validated."
+msgstr "암호 해독 비밀번호가 유효합니다."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:152
+msgid "Blogs prepared."
+msgstr "블로그 준비 완료."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:142
+msgid "Could not import a WordPress Network into a single WordPress site. The process cannot continue. Please check your import settings."
+msgstr "워드프레스 네트워크를 단일 워드프레스 사이트로 가져올 수 없습니다. 프로세스를 계속할 수 없습니다. 가져오기 설정을 확인하세요."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:139
+msgid "The archive must contain at least one WordPress site. The process cannot continue. Please check your export settings."
+msgstr "아카이브에는 워드프레스 사이트가 하나 이상 포함되어 있어야 합니다. 프로세스를 계속할 수 없습니다. 내보내기 설정을 확인하세요."
+
+#: lib/model/import/class-ai1wm-import-blogs.php:136
+msgid "The archive must contain only a single WordPress site. The process cannot continue. Please revisit your export settings."
+msgstr "아카이브에는 하나의 워드프레스 사이트만 포함되어야 합니다. 프로세스를 계속할 수 없습니다. 내보내기 설정을 다시 확인하세요."
+
+#: lib/model/export/class-ai1wm-export-enumerate-themes.php:108
+msgid "Theme files gathered."
+msgstr "테마 파일이 수집됨."
+
+#: lib/model/export/class-ai1wm-export-enumerate-themes.php:53
+msgid "Gathering theme files..."
+msgstr "테마 파일 수집..."
+
+#: lib/model/export/class-ai1wm-export-enumerate-tables.php:89
+msgid "Database tables gathered."
+msgstr "데이터베이스 테이블이 수집됨."
+
+#: lib/model/export/class-ai1wm-export-enumerate-tables.php:48
+msgid "Gathering database tables..."
+msgstr "데이터베이스 테이블 수집..."
+
+#: lib/model/export/class-ai1wm-export-enumerate-plugins.php:102
+msgid "Plugin files gathered."
+msgstr "플러그인 파일이 수집됨."
+
+#: lib/model/export/class-ai1wm-export-enumerate-plugins.php:53
+msgid "Gathering plugin files..."
+msgstr "플러그인 파일 수집..."
+
+#: lib/model/export/class-ai1wm-export-enumerate-media.php:95
+msgid "Media files gathered."
+msgstr "미디어 파일이 수집됨."
+
+#: lib/model/export/class-ai1wm-export-enumerate-media.php:53
+msgid "Gathering media files..."
+msgstr "미디어 파일 수집하기..."
+
+#: lib/model/export/class-ai1wm-export-enumerate-content.php:113
+msgid "Content files gathered."
+msgstr "콘텐츠 파일이 수집됨."
+
+#: lib/model/export/class-ai1wm-export-enumerate-content.php:53
+msgid "Gathering content files..."
+msgstr "콘텐츠 파일 수집..."
+
+#: lib/model/export/class-ai1wm-export-database.php:165
+msgid "Database exported."
+msgstr "데이터베이스 내보내기."
+
+#: lib/model/export/class-ai1wm-export-database-file.php:107
+msgid "Database archived."
+msgstr "데이터베이스 보관."
+
+#: lib/model/export/class-ai1wm-export-config.php:199
+msgid "Configuration prepared."
+msgstr "구성이 준비되었습니다."
+
+#: lib/model/export/class-ai1wm-export-config-file.php:46
+msgid "Configuration archived."
+msgstr "구성이 보관됩니다."
+
+#: lib/model/export/class-ai1wm-export-compatibility.php:37
+#: lib/model/import/class-ai1wm-import-compatibility.php:38
+msgid "Checking for compatibility..."
+msgstr "호환성 확인..."
+
+#: lib/model/export/class-ai1wm-export-archive.php:46
+msgid "Export file created."
+msgstr "내보내기 파일 생성."
+
+#: lib/model/export/class-ai1wm-export-archive.php:39
+msgid "Creating export file..."
+msgstr "내보내기 파일 만들기..."
+
+#. translators: Error message.
+#: lib/model/class-ai1wm-feedback.php:81
+msgid "An error occurred while submitting your request: %s"
+msgstr "요청을 제출하는 동안 오류가 발생했습니다: %s"
+
+#: lib/model/class-ai1wm-feedback.php:63
+msgid "Please check the consent box so we can use your email to respond to you."
+msgstr "이메일을 사용하여 답변할 수 있도록 동의 상자를 선택해 주세요."
+
+#: lib/model/class-ai1wm-feedback.php:58
+msgid "Please describe your issue or feedback."
+msgstr "문제나 피드백을 설명해 주세요."
+
+#: lib/model/class-ai1wm-feedback.php:53
+msgid "Please select a feedback type."
+msgstr "피드백 유형을 선택하세요."
+
+#: lib/model/class-ai1wm-feedback.php:48
+msgid "Please enter a valid email address."
+msgstr "유효한 이메일 주소를 입력하세요."
+
+#. translators: 1: Extension name, 2: Plugins update page.
+#: lib/model/class-ai1wm-compatibility.php:56
+msgid "<strong>%1$s</strong> is out of date. You must <a href=\"%2$s\">update this extension</a> before using it.<br />"
+msgstr "<strong>%s</strong>가 오래되었습니다. 이 확장을 사용하기 전에 <a href=\"%s\">이 확장을 업데이트해야 합니다.<br />."
+
+#. translators: Extension name.
+#: lib/model/class-ai1wm-compatibility.php:53
+msgid "%s is out of date. Please update this extension before using it."
+msgstr "%s가 오래되었습니다. 이 확장 프로그램을 사용하기 전에 업데이트하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:866
+msgid "Please enter a password to restore the backup"
+msgstr "백업을 복원하려면 비밀번호를 입력하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:845
+msgid "Could not download backup"
+msgstr "백업을 다운로드할 수 없습니다."
+
+#: lib/controller/class-ai1wm-main-controller.php:912
+msgid "Could not read backup content"
+msgstr "백업 콘텐츠를 읽을 수 없습니다."
+
+#. translators: Disk space to free up.
+#: lib/controller/class-ai1wm-main-controller.php:874
+msgid "Not enough disk space.<br /> Free up %s before restoring."
+msgstr "디스크 공간이 부족합니다.<br />복원하기 전에 %s를 확보하세요."
+
+#. translators: 1: Link to Unlimited Extension
+#: lib/controller/class-ai1wm-main-controller.php:908
+msgid "\"Restore\" functionality is available in our <a href=\"%s\" target=\"_blank\">Unlimited Extension</a>.<br /> If you would rather go the manual route, you can still restore by downloading your backup and using \"Import from file\"."
+msgstr "\"복원\" 기능은 <a href=\"%s\" target=\"_blank\">무제한 확장</a>에서 사용할 수 있습니다.<br /> 수동으로 복원하고 싶은 경우에도 백업을 다운로드하고 \"파일에서 가져오기\"를 사용하여 복원할 수 있습니다."
+
+#: lib/controller/class-ai1wm-main-controller.php:893
+msgid ""
+"Invalid file type. Please ensure that your file is a <strong>.wpress</strong> file created with All-in-One WP Migration.\n"
+"\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Technical details</a>"
+msgstr "잘못된 파일 형식입니다. 파일이 올인원 WP 마이그레이션으로 생성된 <strong>.wpress</strong> 파일인지 확인하세요. <a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">기술 세부 정보</a>"
+
+#. translators: 1: Link to Unlimited Extension, 2: Link to how to article
+#: lib/controller/class-ai1wm-main-controller.php:877
+msgid "Your file exceeds the upload limit set by your host web server.<br />%1$s<br />%2$s"
+msgstr "파일이 호스트 웹 서버에서 설정한 업로드 제한을 초과했습니다.<br />%s<br />%s"
+
+#: lib/controller/class-ai1wm-main-controller.php:872
+msgid "Upload failed"
+msgstr "업로드 실패"
+
+#: lib/controller/class-ai1wm-main-controller.php:871
+msgid "Upload failed - connection lost or timeout. Try uploading the file again."
+msgstr "업로드에 실패했습니다 - 연결이 끊어졌거나 시간이 초과되었습니다. 파일을 다시 업로드해 보세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:857
+msgid "Stopping the import, please wait..."
+msgstr "가져오기를 중지하는 중입니다... 잠시만 기다려주세요..."
+
+#: lib/controller/class-ai1wm-main-controller.php:856
+msgid "Could not stop the import. Please refresh and try again."
+msgstr "가져오기를 중지할 수 없습니다. 새로 고침하고 다시 시도하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:855
+msgid "Could not prepare blogs for import. Please refresh and try again."
+msgstr "블로그를 가져올 준비를 할 수 없습니다. 새로고침 후 다시 시도하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:854
+msgid "Could not check the decryption password. Please refresh and try again."
+msgstr "암호 해독 비밀번호를 확인할 수 없습니다. 새로고침 후 다시 시도하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:853
+msgid "Could not confirm the import. Please refresh and try again."
+msgstr "가져오기를 확인할 수 없습니다. 새로고침 후 다시 시도하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:852
+msgid "Could not start the import. Please refresh and try again."
+msgstr "가져오기를 시작할 수 없습니다. 새로고침 후 다시 시도하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:849
+msgid "Are you sure you want to stop the import?"
+msgstr "가져오기를 중지하시겠습니까?"
+
+#. translators: Link to how to article
+#: lib/controller/class-ai1wm-main-controller.php:815
+#: lib/controller/class-ai1wm-main-controller.php:888
+#: lib/view/import/pro.php:61
+msgid "If you prefer a manual fix, follow our step-by-step guide on <a href=\"%s\" target=\"_blank\">raising your upload limit</a>."
+msgstr "수동 수정을 선호하는 경우 <a href=\"%s\" target=\"_blank\">업로드 한도 올리기에 대한 단계별 가이드를 따르세요."
+
+#. translators: Link to Unlimited Extension
+#: lib/controller/class-ai1wm-main-controller.php:810
+#: lib/controller/class-ai1wm-main-controller.php:883
+#: lib/view/import/pro.php:49
+msgid "Our <a href=\"%s\" target=\"_blank\">Unlimited Extension</a> bypasses this!"
+msgstr "<a href=\"%s\" target=\"_blank\">무제한 확장</a>으로 이를 우회할 수 있습니다!"
+
+#. translators: 1: Max upload file size
+#: lib/controller/class-ai1wm-main-controller.php:803
+msgid "Your file exceeds the <strong>%1$s</strong> upload limit set by your host.<br />%2$s<br />%3$s"
+msgstr "파일이 호스트에서 설정한 <strong>%s</strong> 업로드 제한을 초과했습니다.<br />%s<br />%s."
+
+#: lib/controller/class-ai1wm-main-controller.php:838
+msgid "Stopping the export, please wait..."
+msgstr "내보내기를 중지하는 중입니다... 잠시만 기다려주세요..."
+
+#: lib/controller/class-ai1wm-main-controller.php:837
+msgid "Could not stop the export. Please refresh and try again."
+msgstr "내보내기를 중지할 수 없습니다. 새로 고침하고 다시 시도하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:836
+msgid "Could not run the export. Please refresh and try again."
+msgstr "내보내기를 실행할 수 없습니다. 새로 고침하고 다시 시도하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:835
+msgid "Could not start the export. Please refresh and try again."
+msgstr "내보내기를 시작할 수 없습니다. 새로 고침하고 다시 시도하세요."
+
+#: lib/controller/class-ai1wm-main-controller.php:832
+msgid "Are you sure you want to stop the export?"
+msgstr "내보내기를 중지하시겠습니까?"
+
+#: lib/controller/class-ai1wm-main-controller.php:825
+msgid "Thank you! We have received your request and will be in touch soon."
+msgstr "감사합니다! 요청을 접수했으며 곧 연락드리겠습니다."
+
+#: lib/controller/class-ai1wm-import-controller.php:96
+#: lib/controller/class-ai1wm-import-controller.php:113
+#: lib/controller/class-ai1wm-import-controller.php:137
+#: lib/controller/class-ai1wm-import-controller.php:139
+#: lib/controller/class-ai1wm-import-controller.php:147
+#: lib/controller/class-ai1wm-main-controller.php:851
+msgid "Import failed"
+msgstr "가져오기에 실패했습니다."
+
+#. translators: Error message.
+#: lib/controller/class-ai1wm-import-controller.php:132
+msgid "Import failed: %s"
+msgstr "가져오지 못했습니다: %s"
+
+#. translators: 1: Error code, 2: Error message.
+#: lib/controller/class-ai1wm-import-controller.php:108
+msgid "Import failed (database error). Code: %1$s. %2$s"
+msgstr "가져오기에 실패했습니다(데이터베이스 오류). Code: %s. %s"
+
+#. translators: 1: Error code, 2: Error message.
+#: lib/controller/class-ai1wm-import-controller.php:91
+msgid "Import failed. Code: %1$s. %2$s"
+msgstr "가져오기에 실패했습니다. Code: %s. %s"
+
+#: lib/controller/class-ai1wm-export-controller.php:96
+#: lib/controller/class-ai1wm-export-controller.php:112
+#: lib/controller/class-ai1wm-export-controller.php:119
+#: lib/controller/class-ai1wm-main-controller.php:834
+msgid "Export failed"
+msgstr "내보내기 실패"
+
+#. translators: 1: Error message.
+#: lib/controller/class-ai1wm-export-controller.php:108
+msgid "Export failed: %s"
+msgstr "내보내지 못했습니다: %s"
+
+#. translators: 1: Error code, 2: Error message.
+#: lib/controller/class-ai1wm-export-controller.php:91
+msgid "Export failed (database error). Code: %1$s. Message: %2$s"
+msgstr "내보내기에 실패했습니다(데이터베이스 오류). 코드: %1$s. 메시지: %2$s"
+
+#: lib/controller/class-ai1wm-backups-controller.php:343
+msgid "Could not list the backup content. Please ensure the backup file is accessible and not corrupted."
+msgstr "백업 콘텐츠를 나열할 수 없습니다. 백업 파일에 액세스할 수 있고 손상되지 않았는지 확인하세요."
+
+#: functions.php:2389
+msgid "Could not decrypt data. The process cannot continue."
+msgstr "데이터를 해독할 수 없습니다. 프로세스를 계속할 수 없습니다."
+
+#: functions.php:2366
+msgid "Could not obtain cipher length. The process cannot continue."
+msgstr "암호 길이를 얻을 수 없습니다. 프로세스를 계속할 수 없습니다."
+
+#: functions.php:2351
+msgid "Could not encrypt data. The process cannot continue."
+msgstr "데이터를 암호화할 수 없습니다. 프로세스를 계속할 수 없습니다."
+
+#: functions.php:2345
+msgid "Could not generate random bytes. The process cannot continue."
+msgstr "임의 바이트를 생성할 수 없습니다. 프로세스를 계속할 수 없습니다."
+
+#: functions.php:1958
+msgid "Could not authenticate the secret key. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-secret-key/\" target=\"_blank\">Technical details</a>"
+msgstr "비밀 키를 인증할 수 없습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-secret-key/\" target=\"_blank\">기술적인 세부 정보</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1717
+msgid "Could not get current pointer position of %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Technical details</a>"
+msgstr "현재 포인터 위치 %s를 가져올 수 없습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">기술 세부 정보</a>"
+
+#. translators: 1: File offset, 2: Meta data stream URI.
+#: functions.php:1694
+msgid "Could not seek to offset %1$d on %2$s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">Technical details</a>"
+msgstr "s에서 %d를 상쇄할 수 없습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/php-32bit/\" target=\"_blank\">기술 세부 정보</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1666
+msgid "Could not read file: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a>"
+msgstr "파일을 읽을 수 없습니다: %s. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">기술 세부 정보</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1640
+msgid "Out of disk space. Could not write to: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/out-of-disk-space/\" target=\"_blank\">Technical details</a>"
+msgstr "디스크 공간이 부족합니다. %s에 쓸 수 없습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/out-of-disk-space/\" target=\"_blank\">기술 세부 정보</a>"
+
+#. translators: 1: Meta data stream URI.
+#: functions.php:1628 functions.php:1752
+msgid "Could not write to: %s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a>"
+msgstr "%s에 쓸 수 없습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">기술 세부 정보</a>"
+
+#. translators: 1: File path, 2: mode
+#: functions.php:1580 functions.php:1603
+msgid "Could not open %1$s with mode %2$s. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a>"
+msgstr "모드 %2$s로 %1$s를 열 수 없습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: functions.php:110 functions.php:172
+msgid "Your archive file name contains invalid characters: < > : \" | ? * \\0. It must not include these characters. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-name/\" target=\"_blank\">Technical details</a>"
+msgstr "아카이브 파일 이름에 잘못된 문자가 포함되어 있습니다: < > : \" | ? * \\0. 이러한 문자가 포함되어서는 안 됩니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-name/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: functions.php:100 functions.php:162
+msgid "Could not locate the archive path. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-path/\" target=\"_blank\">Technical details</a>"
+msgstr "아카이브 경로를 찾을 수 없습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-archive-path/\" target=\"_blank\">기술적인 세부 정보</a>"
+
+#: functions.php:52
+msgid "Your storage directory name contains invalid characters: < > : \" | ? * \\0. It must not include these characters. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-name/\" target=\"_blank\">Technical details</a>"
+msgstr "저장소 디렉터리 이름에 잘못된 문자가 포함되어 있습니다: < > : \" | ? * \\0. 이러한 문자가 포함되어서는 안 됩니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-name/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: functions.php:42
+msgid "Could not locate the storage path. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-path/\" target=\"_blank\">Technical details</a>"
+msgstr "저장소 경로를 찾을 수 없습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-storage-path/\" target=\"_blank\">기술 세부 정보</a>"
+
+#. Description of the plugin
+#: all-in-one-wp-migration.php
+msgid "All-in-One WP Migration makes moving your entire WordPress site simple. Export or import your database, media, plugins, and themes with just a few clicks."
+msgstr "올인원 WP 마이그레이션으로 전체 워드프레스 사이트를 간편하게 이전할 수 있습니다. 클릭 몇 번으로 데이터베이스, 미디어, 플러그인, 테마를 내보내거나 가져올 수 있습니다."
+
+#: lib/controller/class-ai1wm-main-controller.php:846
+msgid "View Error Log"
+msgstr "오류 로그 보기"
+
+#: functions.php:120 functions.php:182
+msgid "Invalid archive file type. Only .wpress files are allowed. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-type/\" target=\"_blank\">Technical details</a>"
+msgstr "잘못된 아카이브 파일 형식입니다. .wpress 파일만 허용됩니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/invalid-file-type/\" target=\"_blank\">기술 세부 정보</a>"
+
+#. translators: 1: Archive title, 2: File name, 3: Archive title, 4: File size.
+#: lib/model/export/class-ai1wm-export-download.php:90
+msgid ""
+"<a href=\"#\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-direct-download\" title=\"%1$s\" download=\"%2$s\">\n"
+"\t\t\t\t\t\t\t<span>Download %3$s</span>\n"
+"\t\t\t\t\t\t\t<em>Size: %4$s</em>\n"
+"\t\t\t\t\t\t\t</a>"
+msgstr "<a href=\"#\" class=\"ai1wm-button-green ai1wm-emphasize ai1wm-direct-download\" title=\"%s\" download=\"%s\"><span>%s 다운로드</span><em>크기: %s</em></a>"
+
+#: lib/view/reset/index.php:41
+msgid "Reset Hub Demo"
+msgstr "Reset Hub 데모"
+
+#: lib/view/reset/index.php:41
+msgid "Upgrade to Premium "
+msgstr "프리미엄으로 업그레이드 "
+
+#: lib/view/reset/index.php:39
+msgid "Please note, the features displayed below are part of an image showcasing the potential of Reset Hub in its Premium version. To activate and enjoy these advanced features, <a href=\"https://servmask.com/products/unlimited-extension\" title=\"Upgrade to Premium\" target=\"_blank\">upgrade to Premium now</a>! Elevate your website management experience with these exclusive functionalities and priority support."
+msgstr "아래에 표시된 기능은 프리미엄 버전에서 Reset Hub의 잠재력을 보여주는 이미지의 일부입니다. 이러한 고급 기능을 활성화하고 즐기려면 <a href=\"https://servmask.com/products/unlimited-extension\" title=\"프리미엄으로 업그레이드\" target=\"_blank\">지금 바로 프리미엄으로 업그레이드하세요</a>! 이러한 독점 기능과 우선 지원으로 웹사이트 관리 경험을 향상하세요."
+
+#: lib/view/reset/index.php:37
+msgid "Experience Full Functionality with Premium!"
+msgstr "프리미엄으로 모든 기능을 경험하세요!"
+
+#: lib/view/reset/index.php:36
+msgid "Star"
+msgstr "별점"
+
+#: lib/controller/class-ai1wm-main-controller.php:745
+#: lib/controller/class-ai1wm-main-controller.php:746
+msgid "Reset Hub"
+msgstr "Reset Hub"
+
+#: lib/view/main/premium-badge.php:33
+msgid "Premium"
+msgstr "프리미엄"
+
+#: lib/view/schedules/index.php:111
+msgid "Leverage the simplicity of Dropbox for your backup needs. Direct your scheduled backups to be stored in Dropbox. It's secure, straightforward, and keeps your backups at your fingertips."
+msgstr "Dropbox의 간편한 백업 기능을 활용하세요. 예약된 백업을 Dropbox에 저장하도록 지정하세요. 안전하고 간편하며 손끝으로 간편하게 백업을 관리할 수 있습니다."
+
+#: lib/view/schedules/index.php:163
+msgid "Tailor your backup schedules to fit the complexity of your WordPress Multisite. Choose to export the entire network or only a selection of subsites according to your requirements. Effortless management for even the most intricate site networks."
+msgstr "워드프레스 멀티사이트의 복잡성에 맞게 백업 일정을 조정하세요. 요구사항에 따라 전체 네트워크 또는 일부 하위 사이트만 내보내도록 선택할 수 있습니다. 가장 복잡한 사이트 네트워크도 손쉽게 관리할 수 있습니다."
+
+#: lib/view/schedules/index.php:150
+msgid "We've got you covered with an array of supported storage providers. Whether you prefer Box, Amazon S3, WebDav or something else, you can choose the one that fits your needs best. Secure your backups exactly where you want them."
+msgstr "지원되는 다양한 스토리지 제공업체가 있습니다. Box, Amazon S3, WebDav 또는 그 밖의 어떤 것을 선호하든 필요에 가장 적합한 것을 선택할 수 있습니다. 원하는 위치에 백업을 안전하게 보관하세요."
+
+#: lib/view/schedules/index.php:137
+msgid "Enjoy the flexibility of FTP storage. Direct your scheduled backups to your own FTP server. You'll have full control over your data, providing you with a versatile and private storage solution."
+msgstr "FTP 스토리지의 유연성을 활용하세요. 예약된 백업을 나만의 FTP 서버로 직접 전송하세요. 데이터를 완벽하게 제어할 수 있어 다용도 개인 스토리지 솔루션이 제공됩니다."
+
+#: lib/view/schedules/index.php:124
+msgid "Harness the power of OneDrive for your backups. Set up your scheduled backups to be saved directly in your OneDrive. It's secure, integrated with your Microsoft account, and keeps your data readily accessible."
+msgstr "OneDrive의 강력한 기능을 백업에 활용하세요. 예약된 백업이 OneDrive에 바로 저장되도록 설정하세요. 안전하고 Microsoft 계정과 통합되어 있으며 데이터에 쉽게 액세스할 수 있습니다."
+
+#: lib/view/schedules/index.php:98
+msgid "Benefit from the robustness of Google Drive. Schedule your backups to be saved directly to your Google Drive account. Simple, secure, and integrated into a platform you already use."
+msgstr "Google 드라이브의 강력한 기능을 활용하세요. 백업이 Google 드라이브 계정에 바로 저장되도록 예약하세요. 간편하고 안전하며 이미 사용 중인 플랫폼에 통합되어 있습니다."
+
+#: lib/view/schedules/index.php:85
+msgid "Manage your storage effectively with our flexible retention settings. Decide how many backups you want to keep at a time. Old backups are automatically cleared, keeping your storage neat and efficient."
+msgstr "유연한 보존 설정으로 스토리지를 효과적으로 관리하세요. 한 번에 얼마나 많은 백업을 보관할지 결정하세요. 오래된 백업은 자동으로 삭제되므로 저장 공간을 깔끔하고 효율적으로 유지할 수 있습니다."
+
+#: lib/view/schedules/index.php:77 lib/view/schedules/index.php:82
+msgid "Retention settings"
+msgstr "보존 설정"
+
+#: lib/view/schedules/index.php:72
+msgid "Stay informed, not overwhelmed. Tailor your notification preferences to get updates that matter to you. Whether it's the status of each backup, or just critical alerts, control what you want to be notified about."
+msgstr "압도당하지 않고 최신 정보를 받아보세요. 알림 환경설정을 조정하여 중요한 업데이트만 받도록 설정하세요. 각 백업의 상태든 중요한 알림이든 원하는 알림을 원하는 대로 설정할 수 있습니다."
+
+#: lib/view/schedules/index.php:64 lib/view/schedules/index.php:69
+msgid "Notification settings"
+msgstr "알림 설정"
+
+#: lib/view/schedules/index.php:59
+msgid "Never worry about forgetting to back up your site again. Choose from various scheduling options, from daily to monthly, and we'll automate the rest. Backups happen like clockwork, giving you peace of mind and a solid safety net"
+msgstr "더 이상 사이트 백업을 잊어버릴 걱정은 하지 마세요. 매일부터 매월까지 다양한 예약 옵션 중에서 선택하면 나머지는 자동으로 처리됩니다. 백업이 자동으로 수행되므로 안심할 수 있고 견고한 안전망을 구축할 수 있습니다."
+
+#: lib/view/schedules/index.php:56 lib/view/schedules/index.php:69
+#: lib/view/schedules/index.php:82 lib/view/schedules/index.php:95
+#: lib/view/schedules/index.php:108 lib/view/schedules/index.php:121
+#: lib/view/schedules/index.php:134 lib/view/schedules/index.php:147
+#: lib/view/schedules/index.php:160
+msgid "Enable this feature"
+msgstr "이 기능 사용 설정"
+
+#: lib/view/schedules/index.php:51
+msgid "Backup scheduler"
+msgstr "백업 스케줄러"
+
+#: lib/view/schedules/index.php:45 lib/view/schedules/index.php:155
+#: lib/view/schedules/index.php:160
+msgid "Multisite Schedules"
+msgstr "멀티사이트 스케줄"
+
+#: lib/view/schedules/index.php:44 lib/view/schedules/index.php:142
+#: lib/view/schedules/index.php:147
+msgid "More Storage Providers"
+msgstr "더 많은 스토리지 제공업체"
+
+#: lib/view/schedules/index.php:43 lib/view/schedules/index.php:129
+#: lib/view/schedules/index.php:134
+msgid "FTP Storage"
+msgstr "FTP 저장소"
+
+#: lib/view/schedules/index.php:42 lib/view/schedules/index.php:116
+#: lib/view/schedules/index.php:121
+msgid "OneDrive Storage"
+msgstr "OneDrive 저장소"
+
+#: lib/view/schedules/index.php:41 lib/view/schedules/index.php:103
+#: lib/view/schedules/index.php:108
+msgid "Dropbox Storage"
+msgstr "Dropbox 스토리지"
+
+#: lib/view/schedules/index.php:40 lib/view/schedules/index.php:90
+#: lib/view/schedules/index.php:95
+msgid "Google Drive Storage"
+msgstr "구글 드라이브 저장소"
+
+#: lib/view/schedules/index.php:39
+msgid "Retention Settings"
+msgstr "보존 설정"
+
+#: lib/view/schedules/index.php:38
+msgid "Notification Settings"
+msgstr "알림 설정"
+
+#: lib/view/schedules/index.php:37 lib/view/schedules/index.php:56
+msgid "Backup Scheduler"
+msgstr "백업 스케줄러"
+
+#: lib/controller/class-ai1wm-main-controller.php:754
+#: lib/controller/class-ai1wm-main-controller.php:755
+msgid "Schedules"
+msgstr "일정"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:69
+msgid "Backup is encrypted. Please provide decryption password: "
+msgstr "백업 파일이 암호화 되어 있습니다. 복호화 비밀번호를 입력하세요: "
+
+#: lib/view/export/advanced-settings.php:66
+msgid "Password-protect and encrypt backups"
+msgstr "백업 암호 보호 및 암호화"
+
+#: lib/view/export/advanced-settings.php:53
+msgid "A password is required"
+msgstr "비밀번호가 필요합니다"
+
+#: lib/view/export/advanced-settings.php:46
+msgid "Encrypt this backup with a password"
+msgstr "이 백업을 비밀번호로 암호화"
+
+#: lib/model/import/class-ai1wm-import-check-encryption.php:56
+msgid "Importing an encrypted backup is not supported on this server. The process cannot continue. <a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">Technical details</a>"
+msgstr "이 서버에서는 암호화된 백업 가져오기가 지원되지 않습니다. 프로세스를 계속할 수 없습니다. <a href=\"https://help.servmask.com/knowledgebase/unable-to-encrypt-and-decrypt-backups/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/controller/class-ai1wm-main-controller.php:870
+#: lib/view/export/advanced-settings.php:58
+msgid "The passwords do not match"
+msgstr "비밀번호가 일치하지 않습니다"
+
+#: lib/controller/class-ai1wm-main-controller.php:869
+#: lib/view/export/advanced-settings.php:56
+msgid "Repeat the password"
+msgstr "비밀번호 재입력"
+
+#: lib/controller/class-ai1wm-main-controller.php:916
+msgid "Submit"
+msgstr "전송"
+
+#: lib/controller/class-ai1wm-main-controller.php:865
+msgid "The backup is encrypted"
+msgstr "백업 파일이 암호화 되었습니다"
+
+#: lib/view/backups/backups-list.php:137
+msgid "List"
+msgstr "목록"
+
+#: lib/view/backups/backups-list.php:135
+msgid "Show backup content"
+msgstr "백업 콘텐츠 표시"
+
+#: lib/view/backups/backups-list.php:128
+msgid "Downloading is not possible because backups directory is not accessible."
+msgstr "백업 디렉터리에 액세스할 수 없으므로 다운로드할 수 없습니다."
+
+#: lib/controller/class-ai1wm-main-controller.php:914
+msgid "Reading..."
+msgstr "로딩중…"
+
+#: lib/controller/class-ai1wm-main-controller.php:913
+msgid "List the content of the backup"
+msgstr "백업 콘텐츠 목록"
+
+#: lib/controller/class-ai1wm-main-controller.php:911
+msgid "Error"
+msgstr "오류"
+
+#: lib/view/backups/backups-list.php:101
+msgid "More"
+msgstr "더 보기"
+
+#. translators: 1: Number of backups.
+#: lib/controller/class-ai1wm-main-controller.php:844
+msgid "You have %d backups"
+msgstr "백업이 %d개 있습니다."
+
+#. translators: 1: Number of backups.
+#. translators: Numbers of backups.
+#: lib/controller/class-ai1wm-main-controller.php:842
+#: lib/view/main/backups.php:33
+msgid "You have %d backup"
+msgid_plural "You have %d backups"
+msgstr[0] "백업이 %d개 있습니다."
+
+#. translators: 1: Error message.
+#: lib/view/updater/error.php:33
+msgid "Error: %s"
+msgstr "오류: %s"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-themes.php:109
+#: lib/model/export/class-ai1wm-export-themes.php:153
+msgid "Archiving %1$d theme files...<br />%2$d%% complete"
+msgstr "%d 테마 파일 압축 중...<br />%d%% 완료"
+
+#: lib/view/main/contact-support.php:33
+msgid "Contact Support"
+msgstr "지원팀에 문의"
+
+#: lib/model/import/class-ai1wm-import-permalinks.php:38
+msgid "Retrieving WordPress permalinks settings..."
+msgstr "워드프레스 퍼머링크 설정 검색..."
+
+#: lib/view/import/avada.php:46
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://theme-fusion.com/documentation/avada/installation-maintenance/important-update-information/#clear-caches\" target=\"_blank\">Reset Avada Fusion Builder cache</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://theme-fusion.com/documentation/avada/installation-maintenance/important-update-information/#clear-caches\" target=\"_blank\">아바다 퓨전 빌더 캐시 재설정</a>.<br />"
+
+#: lib/view/import/avada.php:43
+msgid "» <a class=\"ai1wm-no-underline\" href=\"https://classic.oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Re-sign Oxygen Builder shortcodes</a>.<br />"
+msgstr "» <a class=\"ai1wm-no-underline\" href=\"https://oxygenbuilder.com/documentation/other/importing-exporting/#resigning\" target=\"_blank\">Oxygen Builder 쇼트코드 다시 서명</a>.<br />"
+
+#: lib/view/import/avada.php:33
+msgid "» Permalinks are set to default. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">Why?</a><br />"
+msgstr "» 퍼머링크가 기본값으로 설정되어 있습니다. <a class=\"ai1wm-no-underline\" href=\"https://help.servmask.com/knowledgebase/permalinks-are-set-to-default/\" target=\"_blank\">왜? </a><br />"
+
+#: lib/view/main/translate.php:33
+msgid "Translate"
+msgstr "번역"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-media.php:109
+#: lib/model/export/class-ai1wm-export-media.php:153
+msgid "Archiving %1$d media files...<br />%2$d%% complete"
+msgstr "%d개 미디어 파일을 압축 중...<br />%d%%개 완료"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-content.php:109
+#: lib/model/export/class-ai1wm-export-content.php:153
+msgid "Archiving %1$d content files...<br />%2$d%% complete"
+msgstr "%d개의 내용 파일을 압축 중...<br />%d%%개 완료"
+
+#: lib/controller/class-ai1wm-main-controller.php:862
+msgid "I have enough disk space"
+msgstr "충분한 공간을 가지고 있습니다"
+
+#. translators: 1: Source PHP version, 2: Target PHP version.
+#: lib/model/import/class-ai1wm-import-confirm.php:103
+msgid ""
+"Your backup is from a PHP %1$s but the site that you are importing to is PHP %2$s.\n"
+"\t\t\t\t\t\t\tThis could cause the import to fail. Technical details: https://help.servmask.com/knowledgebase/migrate-wordpress-from-php-5-to-php-7/"
+msgstr ""
+"백업 파일은 PHP %1$s 버전에서 생성되었으나, 들여오기를 적용할 사이트는 PHP %2$s 버전입니다.\n"
+"\t\t\t\t\t\t\t이로 인해 들여오기가 실패할 수 있습니다. 기술적 세부 정보: https://help.servmask.com/knowledgebase/migrate-wordpress-from-php-5-to-php-7/"
+
+#: lib/view/backups/backups-list.php:51 lib/view/backups/index.php:51
+msgid "Refreshing backup list..."
+msgstr "백업 목록을 다시 읽는 중..."
+
+#. translators: Storage path
+#: lib/view/import/import-permissions.php:38
+msgid ""
+"<h3>Could not import site</h3>\n"
+"\t\t\t\t<p>Please ensure the directory <strong>%s</strong> has read/write permissions.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a></p>"
+msgstr "<h3>사이트를 가져올 수 없습니다</h3><p><strong>%s</strong> 디렉터리에 읽기/쓰기 권한이 있는지 확인하세요.</p><p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">기술적인 세부 정보</a></p>"
+
+#. translators: Storage path.
+#: lib/view/export/export-permissions.php:38
+msgid ""
+"<h3>Could not export site</h3>\n"
+"\t\t\t\t<p>Please ensure the directory <strong>%s</strong> has read/write permissions.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a></p>"
+msgstr "<h3>사이트를 내보낼 수 없습니다</h3><p><strong>%s</strong> 디렉터리에 읽기/쓰기 권한이 있는지 확인하세요.</p><p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">기술적인 세부 정보</a></p>"
+
+#. translators: Backups path
+#: lib/view/backups/backups-permissions.php:38
+msgid ""
+"<h3>Could not restore site</h3>\n"
+"\t\t\t\t<p>Please ensure the directory <strong>%s</strong> has read/write permissions.</p>\n"
+"\t\t\t\t<p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">Technical details</a></p>"
+msgstr "<h3>사이트를 복원할 수 없습니다</h3><p><strong>%s</strong> 디렉터리에 읽기/쓰기 권한이 있는지 확인하세요.</p><p><a href=\"https://help.servmask.com/knowledgebase/invalid-file-permissions/\" target=\"_blank\">기술적인 세부 정보</a></p>"
+
+#: lib/view/main/missing-role-capability-notice.php:37
+msgid ""
+"Your current profile role does not have Export/Import capabilities enabled.\n"
+"\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/how-to-add-import-and-export-capabilities-to-wordpress-users/\" target=\"_blank\">Technical details</a>"
+msgstr "현재 프로필 역할에 내보내기/가져오기 기능이 활성화되어 있지 않습니다. <a href=\"https://help.servmask.com/knowledgebase/how-to-add-import-and-export-capabilities-to-wordpress-users/\" target=\"_blank\">기술 세부 정보</a>"
+
+#: lib/view/import/button-file.php:33
+msgid "To choose a file please go inside the link and click on the browse button."
+msgstr "파일을 선택하려면 링크 안으로 들어가 탐색 단추를 누르십시오."
+
+#: lib/controller/class-ai1wm-main-controller.php:860
+msgid "Finish"
+msgstr "마침"
+
+#: lib/model/import/class-ai1wm-import-validate.php:87
+msgid ""
+"Please ensure your file was created with the All-in-One WP Migration plugin.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">Technical details</a>"
+msgstr ""
+"파일이 All-in-One WP Migration 플러그인으로 생성되었는지 확인해 주세요.\n"
+"\t\t\t\t\t\t<a href=\"https://help.servmask.com/knowledgebase/invalid-backup-file/\" target=\"_blank\">기술적 세부 정보</a>"
+
+#: lib/model/import/class-ai1wm-import-validate.php:74
+msgid "The archive file appears to be corrupted. Follow <a href=\"https://help.servmask.com/knowledgebase/corrupted-archive/\" target=\"_blank\">this article</a> for possible fixes."
+msgstr "아카이브 파일이 손상된 것 같습니다. <a href=\"https://help.servmask.com/knowledgebase/corrupted-archive/\" target=\"_blank\">이 문서</a>를 참조하여 해결 방법을 알아보세요."
+
+#. translators: 1: Source PHP version, 2: Target PHP version.
+#: lib/model/import/class-ai1wm-import-confirm.php:115
+msgid "Your backup is from a PHP %1$s but the site that you are importing to is PHP %2$s. This could cause the import to fail. <a href=\"https://help.servmask.com/knowledgebase/migrate-wordpress-from-php-5-to-php-7/\" target=\"_blank\">Technical details</a>"
+msgstr "백업 파일은 PHP %1$s 버전에서 생성되었으나, 들여오기를 적용할 사이트는 PHP %2$s 버전입니다. 이로 인해 들여오기가 실패할 수 있습니다. <a href=\"https://help.servmask.com/knowledgebase/migrate-wordpress-from-php-5-to-php-7/\" target=\"_blank\">기술적 세부 정보</a>"
+
+#: lib/view/import/import-buttons.php:41
+msgid "Drag & Drop a backup to import it"
+msgstr "끌어서 놓기하여 백업을 들여오세요"
+
+#. translators: 1: Progress, 2: Number of records.
+#: lib/model/export/class-ai1wm-export-database.php:81
+#: lib/model/export/class-ai1wm-export-database.php:192
+msgid "Exporting database...<br />%1$d%% complete<br />%2$s records saved"
+msgstr "데이터베이스를 내보내는 중...<br />%d%% 완료 <br />%s 레코드 저장"
+
+#: lib/controller/class-ai1wm-main-controller.php:905
+msgid "Backup restore requires the Unlimited Extension. <a href=\"https://servmask.com/products/unlimited-extension\" target=\"_blank\">Get it here</a>"
+msgstr "백업 복원에는 무제한 확장 기능이 필요합니다. <a href=\"https://servmask.com/products/unlimited-extension\" target=\"_blank\">여기에서 다운로드</a>"
+
+#: lib/controller/class-ai1wm-main-controller.php:268
+msgid "All-in-One WP Migration Command"
+msgstr "All-in-One WP Migration 명령어"
+
+#: lib/controller/class-ai1wm-main-controller.php:833
+#: lib/model/export/class-ai1wm-export-init.php:47
+msgid "Preparing to export..."
+msgstr "내보내기 준비 중..."
+
+#. translators: Human time diff
+#: lib/view/backups/backups-list.php:90
+msgid "%s ago"
+msgstr "%s 전"
+
+#: lib/controller/class-ai1wm-main-controller.php:829
+msgid "Your purchase ID is invalid. Please <a href=\"mailto:support@servmask.com\">contact us</a>."
+msgstr "구매 ID가 유효하지 않습니다. <a href=\"mailto:support@servmask.com\">문의해 주세요</a>."
+
+#: lib/controller/class-ai1wm-main-controller.php:901
+msgid "Are you sure you want to delete this backup?"
+msgstr "이 백업을 삭제하시겠습니까?"
+
+#: lib/controller/class-ai1wm-main-controller.php:864
+msgid "Please do not close this browser window or your import will fail"
+msgstr "브라우저 창을 닫지 마십시오. 들여오기가 실패할 수 있습니다"
+
+#: lib/controller/class-ai1wm-main-controller.php:863
+msgid "Continue"
+msgstr "계속"
+
+#: lib/controller/class-ai1wm-main-controller.php:861
+msgid "Proceed"
+msgstr "진행"
+
+#: lib/controller/class-ai1wm-main-controller.php:859
+msgid "Stop import"
+msgstr "들여오기 중지"
+
+#: lib/controller/class-ai1wm-main-controller.php:840
+msgid "Stop export"
+msgstr "내보내기 중지"
+
+#: lib/controller/class-ai1wm-main-controller.php:839
+#: lib/controller/class-ai1wm-main-controller.php:858
+#: lib/controller/class-ai1wm-main-controller.php:915
+msgid "Close"
+msgstr "닫기"
+
+#: lib/model/export/class-ai1wm-export-config.php:38
+msgid "Preparing configuration..."
+msgstr "구성 준비 중..."
+
+#. translators: Progress.
+#: lib/model/export/class-ai1wm-export-database-file.php:95
+#: lib/model/export/class-ai1wm-export-database-file.php:137
+msgid "Archiving database...<br />%d%% complete"
+msgstr "데이터베이스 압축중...<br />%d%% 완료"
+
+#. translators: Progress.
+#: lib/model/import/class-ai1wm-import-database.php:81
+#: lib/model/import/class-ai1wm-import-database.php:1037
+msgid "Restoring database...<br />%d%% complete"
+msgstr "데이터베이스 복원 중...<br />%d%% 완료"
+
+#: lib/controller/class-ai1wm-main-controller.php:850
+msgid "Preparing to import..."
+msgstr "들여오기를 준비하는 중..."
+
+#: lib/controller/class-ai1wm-main-controller.php:1386
+msgid "Monthly"
+msgstr "Monthly"
+
+#: lib/controller/class-ai1wm-main-controller.php:1382
+msgid "Weekly"
+msgstr "Weekly"
+
+#: lib/model/import/class-ai1wm-import-mu-plugins.php:37
+msgid "Activating mu-plugins..."
+msgstr "Mu-plugin 활성화 중..."
+
+#: lib/view/export/advanced-settings.php:97
+msgid "Do <strong>not</strong> replace email domain"
+msgstr "이메일 도메인(sql) 내보내기 <strong>안</strong> 함"
+
+#: lib/model/import/class-ai1wm-import-blogs.php:37
+msgid "Preparing blogs..."
+msgstr "블로그 준비중..."
+
+#: lib/controller/class-ai1wm-main-controller.php:828
+#: lib/view/updater/check.php:33
+msgid "Check for updates"
+msgstr "업데이트 확인"
+
+#. Author of the plugin
+#: all-in-one-wp-migration.php
+msgid "ServMask"
+msgstr "ServMask"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: all-in-one-wp-migration.php
+msgid "https://servmask.com/"
+msgstr "https://servmask.com/"
+
+#: lib/view/import/index.php:39
+msgid "Import Site"
+msgstr "사이트 들여오기"
+
+#: lib/view/import/import-buttons.php:45
+msgid "Import From"
+msgstr "들여오기"
+
+#: lib/view/export/index.php:39
+msgid "Export Site"
+msgstr "사이트 내보내기"
+
+#: lib/view/export/help-section.php:52
+msgid "Once the file is successfully downloaded on your computer, you can import it to any of your WordPress sites."
+msgstr "컴퓨터에서 파일을 성공적으로 내려받기하면 해당 파일을 워드프레스 사이트로 들여올 수 있습니다."
+
+#: lib/view/export/help-section.php:48
+msgid "Press \"Export\" button and the site archive file will pop up in your browser."
+msgstr "'내보내기' 버튼을 누르면 사이트 아카이브 파일이 브라우저에 나타납니다."
+
+#: lib/view/export/help-section.php:44
+msgid "In the advanced settings section you can configure more precisely the way of exporting."
+msgstr "고급 설정에서 내보내기 방법을 보다 정확하게 설정할 수 있습니다."
+
+#: lib/view/export/find-replace.php:54
+msgid "Add"
+msgstr "추가"
+
+#: lib/view/export/find-replace.php:41
+msgid "in the database"
+msgstr "데이터베이스에"
+
+#: lib/view/export/find-replace.php:40
+msgid "<another-text>"
+msgstr "<another-text>"
+
+#: lib/view/export/find-replace.php:39 lib/view/export/find-replace.php:47
+msgid "Replace with"
+msgstr "다음으로 교체"
+
+#: lib/view/export/find-replace.php:38
+msgid "<text>"
+msgstr "<text>"
+
+#: lib/view/export/button-file.php:33 lib/view/import/button-file.php:34
+msgid "File"
+msgstr "파일"
+
+#: lib/view/export/advanced-settings.php:38
+msgid "(click to expand)"
+msgstr "(여기를 눌러 확장)"
+
+#: lib/view/export/advanced-settings.php:37
+msgid "Advanced options"
+msgstr "고급 설정"
+
+#: lib/view/common/leave-feedback.php:69
+msgid "Cancel"
+msgstr "취소"
+
+#: lib/view/common/leave-feedback.php:72
+msgid "Send"
+msgstr "보내기"
+
+#: lib/controller/class-ai1wm-main-controller.php:868
+#: lib/view/export/advanced-settings.php:51
+msgid "Enter a password"
+msgstr "비밀번호 입력"
+
+#: lib/view/common/sidebar-right.php:41
+msgid "Leave Feedback"
+msgstr "평가 남기기"
+
+#: lib/view/backups/index.php:59
+msgid "Create backup"
+msgstr "백업 생성"
+
+#: lib/view/backups/backups-list.php:142 lib/view/backups/backups-list.php:144
+msgid "Delete"
+msgstr "삭제"
+
+#: lib/view/backups/backups-list.php:107 lib/view/backups/backups-list.php:109
+msgid "Restore"
+msgstr "복원"
+
+#: lib/view/backups/backups-list.php:115 lib/view/backups/backups-list.php:117
+#: lib/view/backups/backups-list.php:120 lib/view/backups/backups-list.php:122
+#: lib/view/backups/backups-list.php:130
+msgid "Download"
+msgstr "내려받기"
+
+#: lib/view/backups/backups-list.php:43
+msgid "Size"
+msgstr "크기"
+
+#: lib/view/backups/backups-list.php:42
+msgid "Date"
+msgstr "날짜"
+
+#: lib/view/backups/backups-list.php:41
+msgid "Name"
+msgstr "이름"
+
+#: lib/model/import/class-ai1wm-import-done.php:365
+#: lib/model/import/class-ai1wm-import-done.php:367
+#: lib/model/import/class-ai1wm-import-done.php:369
+msgid "Your site has been imported successfully!"
+msgstr "사이트에 데이터를 성공적으로 가져왔습니다!"
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/import/class-ai1wm-import-content.php:109
+#: lib/model/import/class-ai1wm-import-content.php:254
+msgid "Restoring %1$d files...<br />%2$d%% complete"
+msgstr "%d개의 파일 복원 중...<br />%d%% 완료"
+
+#: lib/model/export/class-ai1wm-export-download.php:43
+msgid "Renaming export file..."
+msgstr "내보내기 파일 이름 바꾸기..."
+
+#. translators: 1: Number of files, 2: Progress.
+#: lib/model/export/class-ai1wm-export-plugins.php:109
+#: lib/model/export/class-ai1wm-export-plugins.php:153
+msgid "Archiving %1$d plugin files...<br />%2$d%% complete"
+msgstr "%d개의 플러그인 파일 압축 중...<br />%d%% 완료"
+
+#: lib/controller/class-ai1wm-main-controller.php:735
+#: lib/controller/class-ai1wm-main-controller.php:736
+#: lib/view/backups/index.php:39
+msgid "Backups"
+msgstr "백업"
+
+#: lib/controller/class-ai1wm-main-controller.php:726
+#: lib/controller/class-ai1wm-main-controller.php:727
+msgid "Import"
+msgstr "들여오기"
+
+#: lib/controller/class-ai1wm-main-controller.php:717
+#: lib/controller/class-ai1wm-main-controller.php:718
+msgid "Export"
+msgstr "내보내기"
+
+#: lib/view/main/multisite-notice.php:43
+msgid "Get multisite"
+msgstr "다중사이트 구매"

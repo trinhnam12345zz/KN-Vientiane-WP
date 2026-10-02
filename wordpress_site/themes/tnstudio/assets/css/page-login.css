@@ -1,0 +1,514 @@
+/**
+ * KN VIENTIANE — Compact Luxury WordPress Admin Login Styles
+ * Brand: KN Vientiane / KN Viêng Chăn
+ * Aesthetics: Light Ivory/Cream Gold (#FAF7F0 -> #F5EFE3), Radiant Gold Accent (#b38c00), Compact 100vh No-Scroll
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+/* ==========================================================================
+   GLOBAL LOGIN PAGE (FIT VIEWPORT - NO SCROLL & NO CLIPPING)
+   ========================================================================== */
+
+html {
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body.login {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  background-color: #FAF7F0 !important;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(179, 140, 0, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 100% 100%, rgba(179, 140, 0, 0.08) 0%, transparent 50%),
+    linear-gradient(180deg, #FCFAF5 0%, #F5EFE3 100%) !important;
+  background-size: 100% 100% !important;
+  min-height: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 16px !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+  color: #2c2514 !important;
+  position: relative !important;
+  overflow-y: auto !important;
+}
+
+/* Subtle background watermark pattern */
+body.login::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: linear-gradient(330deg, rgba(179, 140, 0, 0.08) 0%, rgba(240, 232, 204, 0) 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ==========================================================================
+   CONTAINER (PERFECTLY CENTERED & SCALED)
+   ========================================================================== */
+
+#login {
+  width: 100% !important;
+  max-width: 380px !important;
+  padding: 0 !important;
+  margin: auto !important;
+  position: relative !important;
+  z-index: 10 !important;
+  box-sizing: border-box !important;
+}
+
+/* Hide default WordPress h1 header & language switcher */
+.login h1,
+.login #login h1,
+h1.wp-block-heading,
+.wp-login-logo,
+.language-switcher {
+  display: none !important;
+}
+
+/* ==========================================================================
+   KN VIENTIANE BRAND HEADER (PLENTY OF BREATHING ROOM)
+   ========================================================================== */
+
+.kn-brand-header {
+  text-align: center;
+  margin-top: 0 !important;
+  margin-bottom: 12px !important;
+  padding-top: 4px !important;
+}
+
+.kn-brand-logo-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: transform 0.25s ease;
+  line-height: 1;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.kn-brand-logo-link:focus,
+.kn-brand-logo-link:focus-visible,
+.kn-brand-logo-link:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.kn-brand-logo-link:hover {
+  transform: scale(1.02);
+}
+
+.kn-brand-logo-img {
+  max-width: 125px !important;
+  width: 125px !important;
+  height: auto !important;
+  display: block !important;
+  margin: 0 auto !important;
+  filter: drop-shadow(0 3px 10px rgba(179, 140, 0, 0.25)) !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.kn-brand-logo-img:focus,
+.kn-brand-logo-img:active {
+  outline: none !important;
+  border: none !important;
+}
+
+.kn-brand-badge-wrap {
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+.kn-brand-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 12px;
+  background: rgba(179, 140, 0, 0.08);
+  border: 1px solid rgba(179, 140, 0, 0.25);
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #8c6d00;
+  text-transform: uppercase;
+}
+
+.kn-status-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #16a34a;
+  border-radius: 50%;
+  box-shadow: 0 0 6px #16a34a;
+  display: inline-block;
+}
+
+/* ==========================================================================
+   LOGIN FORM (CLEAN LUXURY WHITE CARD)
+   ========================================================================== */
+
+.login form {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(179, 140, 0, 0.25) !important;
+  border-radius: 16px !important;
+  padding: 22px 24px 18px !important;
+  box-shadow: 
+    0 12px 32px rgba(179, 140, 0, 0.1),
+    0 2px 6px rgba(0, 0, 0, 0.03) !important;
+  margin-top: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* Form Labels */
+.login label {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.3px !important;
+  color: #4a3d16 !important;
+  margin-bottom: 3px !important;
+  display: block !important;
+}
+
+/* Form Inputs */
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="email"] {
+  width: 100% !important;
+  height: 42px !important;
+  background: #FAF8F4 !important;
+  border: 1px solid #dfd4b8 !important;
+  border-radius: 9px !important;
+  padding: 0 14px !important;
+  font-size: 14px !important;
+  font-family: inherit !important;
+  color: #1f1b11 !important;
+  margin-bottom: 12px !important;
+  margin-top: 3px !important;
+  box-sizing: border-box !important;
+  transition: all 0.25s ease !important;
+  outline: none !important;
+}
+
+.login input[type="text"]:focus,
+.login input[type="password"]:focus,
+.login input[type="email"]:focus {
+  background: #FFFFFF !important;
+  border-color: #b38c00 !important;
+  box-shadow: 0 0 0 3px rgba(179, 140, 0, 0.18) !important;
+  color: #111111 !important;
+}
+
+/* Remember Me Checkbox */
+.login .forgetmenot {
+  float: none !important;
+  margin-bottom: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.login .forgetmenot label {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 7px !important;
+  font-size: 12.5px !important;
+  font-weight: 500 !important;
+  color: #5c4f2b !important;
+  cursor: pointer !important;
+  margin: 0 !important;
+  user-select: none !important;
+}
+
+.login .forgetmenot input[type="checkbox"] {
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  width: 16px !important;
+  height: 16px !important;
+  background: #FAF8F4 !important;
+  border: 1px solid #c9b98a !important;
+  border-radius: 4px !important;
+  margin: 0 !important;
+  cursor: pointer !important;
+  position: relative !important;
+  transition: all 0.2s ease !important;
+}
+
+.login .forgetmenot input[type="checkbox"]:checked {
+  background: #b38c00 !important;
+  border-color: #b38c00 !important;
+}
+
+.login .forgetmenot input[type="checkbox"]:checked::after {
+  content: '' !important;
+  position: absolute !important;
+  left: 4.5px !important;
+  top: 1.5px !important;
+  width: 4px !important;
+  height: 8px !important;
+  border: solid #ffffff !important;
+  border-width: 0 2px 2px 0 !important;
+  transform: rotate(45deg) !important;
+}
+
+/* ==========================================================================
+   SUBMIT BUTTON (RADIANT LUXURY GOLD)
+   ========================================================================== */
+
+.login .submit {
+  float: none !important;
+  margin-top: 4px !important;
+  clear: both !important;
+}
+
+.login .button.button-primary,
+.login #wp-submit {
+  width: 100% !important;
+  height: 44px !important;
+  background: linear-gradient(135deg, #c59b00 0%, #9e7a00 100%) !important;
+  border: none !important;
+  border-radius: 9px !important;
+  color: #ffffff !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.6px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 14px rgba(179, 140, 0, 0.32) !important;
+  transition: all 0.3s ease !important;
+  text-shadow: none !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.login .button.button-primary:hover,
+.login #wp-submit:hover {
+  background: linear-gradient(135deg, #d8ac0a 0%, #b38c00 100%) !important;
+  box-shadow: 0 6px 20px rgba(179, 140, 0, 0.45) !important;
+  transform: translateY(-1px) !important;
+  color: #ffffff !important;
+}
+
+.login .button.button-primary:active,
+.login #wp-submit:active {
+  transform: translateY(0) !important;
+  box-shadow: 0 2px 8px rgba(179, 140, 0, 0.25) !important;
+}
+
+/* ==========================================================================
+   NAVIGATION LINKS & FOOTER
+   ========================================================================== */
+
+.login #nav,
+.login #backtoblog {
+  text-align: center !important;
+  padding: 0 !important;
+  margin: 6px 0 0 !important;
+  font-size: 12px !important;
+}
+
+.login #nav {
+  margin-top: 10px !important;
+}
+
+.login #nav a,
+.login #backtoblog a {
+  color: #8c6d00 !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  transition: color 0.2s ease !important;
+}
+
+.login #nav a:hover,
+.login #backtoblog a:hover {
+  color: #574400 !important;
+  text-decoration: underline !important;
+}
+
+.login .privacy-policy-page-link {
+  text-align: center !important;
+  margin-top: 4px !important;
+}
+
+.login .privacy-policy-page-link a {
+  color: #9c8c64 !important;
+  font-size: 11px !important;
+  text-decoration: none !important;
+}
+
+.login .privacy-policy-page-link a:hover {
+  color: #574400 !important;
+  text-decoration: underline !important;
+}
+
+/* Custom Footer Tag */
+.kn-login-footer {
+  text-align: center !important;
+  margin-top: 10px !important;
+  font-size: 11px !important;
+  color: #8a7a53 !important;
+  letter-spacing: 0.2px !important;
+  line-height: 1.45 !important;
+  display: block !important;
+}
+
+.kn-login-footer p {
+  margin: 2px 0 !important;
+}
+
+.kn-login-footer strong {
+  color: #8c6d00 !important;
+  font-weight: 700 !important;
+}
+
+.kn-login-footer a {
+  color: #8c6d00 !important;
+  text-decoration: none !important;
+}
+
+.kn-login-footer a:hover {
+  text-decoration: underline !important;
+}
+
+.kn-login-footer a[href*="tnstudio"],
+.kn-login-footer a[href*="tnstudio"] *,
+.kn-login-footer .tn-brand-link,
+.kn-login-footer .tn-brand-link * {
+  color: #2563eb !important;
+  font-weight: 700 !important;
+}
+
+.kn-login-footer a[href*="tnstudio"]:hover,
+.kn-login-footer a[href*="tnstudio"]:hover * {
+  color: #1d4ed8 !important;
+  text-decoration: underline !important;
+}
+
+.kn-login-footer .kn-credit {
+  font-size: 10.5px !important;
+  opacity: 0.9 !important;
+  margin-top: 2px !important;
+}
+
+/* ==========================================================================
+   NOTICES & ERROR MESSAGES
+   ========================================================================== */
+
+.login #login_error,
+.login .message,
+.login .success {
+  background: #FFFDF5 !important;
+  border-radius: 9px !important;
+  padding: 8px 14px !important;
+  margin-bottom: 10px !important;
+  font-size: 12.5px !important;
+  line-height: 1.4 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04) !important;
+}
+
+.login #login_error {
+  background: #FEF2F2 !important;
+  border: 1px solid #FECACA !important;
+  border-left: 3px solid #EF4444 !important;
+  color: #991B1B !important;
+}
+
+.login #login_error a {
+  color: #B91C1C !important;
+  font-weight: 600 !important;
+}
+
+.login .message {
+  border: 1px solid #E6CC80 !important;
+  border-left: 3px solid #B38C00 !important;
+  color: #6B5300 !important;
+}
+
+.login .message a {
+  color: #4A3A00 !important;
+  font-weight: 600 !important;
+}
+
+/* Password Field Wrapper & Toggle Icon */
+.login .user-pass-wrap {
+  margin-bottom: 14px !important;
+}
+
+.login .wp-pwd {
+  position: relative !important;
+  width: 100% !important;
+  margin: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.login .wp-pwd input[type="password"],
+.login .wp-pwd input[type="text"] {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-right: 40px !important;
+  width: 100% !important;
+}
+
+.login .wp-pwd .button.wp-hide-pw {
+  position: absolute !important;
+  right: 12px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  height: 24px !important;
+  width: 24px !important;
+  min-height: 24px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #8c6d00 !important;
+  cursor: pointer !important;
+  z-index: 5 !important;
+  outline: none !important;
+}
+
+.login .wp-pwd .button.wp-hide-pw:hover {
+  color: #4A3A00 !important;
+}
+
+.login .wp-pwd .button.wp-hide-pw:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.login .wp-pwd .button.wp-hide-pw .dashicons {
+  font-size: 20px !important;
+  width: 20px !important;
+  height: 20px !important;
+  line-height: 20px !important;
+  display: block !important;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 480px) {
+  #login {
+    max-width: 100% !important;
+    padding: 0 12px !important;
+  }
+  .login form {
+    padding: 18px 16px 14px !important;
+  }
+  .kn-brand-logo-img {
+    max-width: 110px !important;
+    width: 110px !important;
+  }
+}

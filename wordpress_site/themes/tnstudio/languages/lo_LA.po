@@ -1,0 +1,65 @@
+# Lao translation for monamedia theme
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: lo\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: monatheme\n"
+
+msgid "Liên hệ ngay"
+msgstr "ຕິດຕໍ່ດຽວນີ້"
+
+msgid "Tìm hiểu về chúng tôi"
+msgstr "ກ່ຽວກັບພວກເຮົາ"
+
+msgid "Tìm hiểu thêm"
+msgstr "ສຶກສາເພີ່ມເຕີມ"
+
+msgid "Chưa có bài viết nào trong lĩnh vực này."
+msgstr "ຍັງບໍ່ມີບົດຄວາມໃນຂົງເຂດນີ້."
+
+msgid "Thông tin"
+msgstr "ຂໍ້ມູນ"
+
+msgid "LIÊN HỆ"
+msgstr "ຕິດຕໍ່"
+
+msgid "Tất cả dự án"
+msgstr "ໂຄງການທັງໝົດ"
+
+msgid "Dự án chi tiết"
+msgstr "ລາຍລະອຽດໂຄງການ"
+
+msgid "Nội dung sẽ sớm được cập nhật"
+msgstr "ເນື້ອຫາຈະຖືກອັບເດດໄວໆນີ້"
+
+msgid "Phát video"
+msgstr "ຫຼິ້ນວິດີໂອ"
+
+msgid "Trang chủ"
+msgstr "ໜ້າຫຼັກ"
+
+msgid "Giới thiệu"
+msgstr "ກ່ຽວກັບພວກເຮົາ"
+
+msgid "Lĩnh vực"
+msgstr "ຂົງເຂດທຸລະກິດ"
+
+msgid "Dự án"
+msgstr "ໂຄງການ"
+
+msgid "Khu vực"
+msgstr "ຂົງເຂດດຳເນີນງານ"
+
+msgid "Liên hệ"
+msgstr "ຕິດຕໍ່"
+
+msgid "Hợp tác"
+msgstr "ການຮ່ວມມື"
+
+msgid "Xem mục trước"
+msgstr "ເບິ່ງລາຍການກ່ອນໜ້າ"
+
+msgid "Xem mục kế tiếp"
+msgstr "ເບິ່ງລາຍການຖັດໄປ"

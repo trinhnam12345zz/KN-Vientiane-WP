@@ -1,0 +1,65 @@
+# Bản dịch chuỗi cứng của theme monatheme sang tiếng Trung.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: monatheme\n"
+
+msgid "Liên hệ ngay"
+msgstr "立即联系"
+
+msgid "Tìm hiểu về chúng tôi"
+msgstr "了解我们"
+
+msgid "Tìm hiểu thêm"
+msgstr "了解更多"
+
+msgid "Chưa có bài viết nào trong lĩnh vực này."
+msgstr "该领域暂无内容。"
+
+msgid "Thông tin"
+msgstr "联系"
+
+msgid "LIÊN HỆ"
+msgstr "方式"
+
+msgid "Tất cả dự án"
+msgstr "全部项目"
+
+msgid "Dự án chi tiết"
+msgstr "项目详情"
+
+msgid "Nội dung sẽ sớm được cập nhật"
+msgstr "内容即将更新"
+
+msgid "Phát video"
+msgstr "播放视频"
+
+msgid "Trang chủ"
+msgstr "首页"
+
+msgid "Giới thiệu"
+msgstr "关于我们"
+
+msgid "Lĩnh vực"
+msgstr "业务领域"
+
+msgid "Dự án"
+msgstr "项目"
+
+msgid "Khu vực"
+msgstr "运营区域"
+
+msgid "Liên hệ"
+msgstr "联系"
+
+msgid "Hợp tác"
+msgstr "合作"
+
+msgid "Xem mục trước"
+msgstr "查看上一项"
+
+msgid "Xem mục kế tiếp"
+msgstr "查看下一项"

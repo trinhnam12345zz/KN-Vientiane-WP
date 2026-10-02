@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Thiết kế widget bài viết'=>['urls'=>[],'names'=>['group-group_6a0ec659b8fe5-title-30c6b7e65a0bf3c76b06b44b9f4a7906'],'cmp'=>['wpml-string-translation',1]],'Danh sách'=>['urls'=>[],'names'=>['field-field_6a0ec66ad790e-label-6bef01b6aec06cfccc03ba329f09a6df'],'cmp'=>['wpml-string-translation',1]],'Tiêu đề'=>['urls'=>[],'names'=>['field-field_6a0ec659d790d-label-ae4b89f870785ea13dba02f1dcd0a20a'],'cmp'=>['wpml-string-translation',1]]]];

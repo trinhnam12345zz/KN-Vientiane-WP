@@ -1,0 +1,77 @@
+.processing {
+  opacity: 0.5 !important;
+  position: relative;
+  pointer-events: none !important;
+}
+
+.processing::before {
+  height: 1em;
+  width: 1em;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  content: "";
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+  background: url(../images/loader.svg) center center;
+  background-size: cover;
+  line-height: 1;
+  text-align: center;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.75);
+  z-index: 99;
+}
+
+.copy-link-btn {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.copy-tooltip {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-4px);
+
+  background: #000;
+  color: #fff;
+
+  font-size: 12px;
+  line-height: 1;
+
+  padding: 6px 10px;
+  border-radius: 6px;
+
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: all 0.3s ease;
+
+  pointer-events: none;
+
+  z-index: 10;
+}
+
+.copy-tooltip.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.ct-form-box .container {
+  padding: 0;
+}
+
+.ct-form-box .fi-list {
+  margin: 2.4rem 0;
+  flex-direction: column-reverse;
+  gap: 0.8rem;
+}

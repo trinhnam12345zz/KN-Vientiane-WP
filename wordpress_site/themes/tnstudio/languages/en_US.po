@@ -1,0 +1,65 @@
+# English translation for monamedia theme
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: monatheme\n"
+
+msgid "Liên hệ ngay"
+msgstr "Contact Now"
+
+msgid "Tìm hiểu về chúng tôi"
+msgstr "About Us"
+
+msgid "Tìm hiểu thêm"
+msgstr "Learn More"
+
+msgid "Chưa có bài viết nào trong lĩnh vực này."
+msgstr "No posts in this sector yet."
+
+msgid "Thông tin"
+msgstr "Information"
+
+msgid "LIÊN HỆ"
+msgstr "CONTACT"
+
+msgid "Tất cả dự án"
+msgstr "All Projects"
+
+msgid "Dự án chi tiết"
+msgstr "Project Details"
+
+msgid "Nội dung sẽ sớm được cập nhật"
+msgstr "Content will be updated soon"
+
+msgid "Phát video"
+msgstr "Play Video"
+
+msgid "Trang chủ"
+msgstr "Home"
+
+msgid "Giới thiệu"
+msgstr "About Us"
+
+msgid "Lĩnh vực"
+msgstr "Business Sectors"
+
+msgid "Dự án"
+msgstr "Projects"
+
+msgid "Khu vực"
+msgstr "Operating Areas"
+
+msgid "Liên hệ"
+msgstr "Contact"
+
+msgid "Hợp tác"
+msgstr "Cooperation"
+
+msgid "Xem mục trước"
+msgstr "Previous item"
+
+msgid "Xem mục kế tiếp"
+msgstr "Next item"

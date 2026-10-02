@@ -1,0 +1,116 @@
+# Translation of Plugins - Advanced Contact form 7 DB - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Advanced Contact form 7 DB - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-08-29 11:44:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Advanced Contact form 7 DB - Stable (latest release)\n"
+
+#: admin/class-advanced-cf7-db-admin.php:170
+msgid "Developer Support"
+msgstr "Developer Support"
+
+#: admin/class-advanced-cf7-db-admin.php:171
+msgid "Add-ons"
+msgstr "Add-ons"
+
+#: admin/class-advanced-cf7-db-admin.php:1242
+msgid "You do not have permission to upload files."
+msgstr "You do not have permission to upload files."
+
+#: admin/class-advanced-cf7-db-admin.php:327
+msgid "Excel"
+msgstr "Excel"
+
+#: admin/partials/contact_form_listing.php:343
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: admin/partials/contact_form_listing.php:344
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#. Plugin Name of the plugin
+#: advanced-cf7-db.php
+msgid "Advanced CF7 DB"
+msgstr "Advanced CF7 DB"
+
+#: admin/partials/contact_form_listing.php:328
+msgid "Apply"
+msgstr "Apply"
+
+#: admin/partials/contact_form_listing.php:323
+msgid "Bulk Actions"
+msgstr "Bulk Actions"
+
+#: admin/class-advanced-cf7-db-admin.php:326
+msgid "CSV"
+msgstr "CSV"
+
+#: admin/class-advanced-cf7-db-admin.php:374
+msgid "Display Settings"
+msgstr "Display Settings"
+
+#: admin/class-advanced-cf7-db-admin.php:329
+msgid "Export"
+msgstr "Export"
+
+#: admin/class-advanced-cf7-db-admin.php:325
+msgid "Export to..."
+msgstr "Export to..."
+
+#. Plugin URI of the plugin
+#: advanced-cf7-db.php
+msgid "https://wordpress.org/plugins/advanced-cf7-db/"
+msgstr "https://en-gb.wordpress.org/plugins/advanced-cf7-db/"
+
+#. Author URI of the plugin
+#: advanced-cf7-db.php
+msgid "https://www.vsourz.com"
+msgstr "https://www.vsourz.com"
+
+#: admin/class-advanced-cf7-db-admin.php:169
+msgid "Import CSV"
+msgstr "Import CSV"
+
+#: admin/class-advanced-cf7-db-admin.php:626
+#: admin/class-advanced-cf7-db-admin.php:663
+#: admin/class-advanced-cf7-db-admin.php:697
+#: includes/vsz-cf7-db-function.php:360 includes/vsz-cf7-db-function.php:381
+#: includes/vsz-cf7-db-function.php:400 includes/vsz-cf7-db-function.php:418
+#: includes/vsz-cf7-db-function.php:437 includes/vsz-cf7-db-function.php:457
+#: includes/vsz-cf7-db-function.php:476 includes/vsz-cf7-db-function.php:495
+msgid "Loading..."
+msgstr "Loading..."
+
+#. Description of the plugin
+#: advanced-cf7-db.php
+msgid "Save all contact form 7 submitted data to the database, View, Export, ordering, Change field labels, Import data using CSV very easily."
+msgstr "Save all Contact Form 7 submitted data to the database, View, Export, ordering. Change field labels. Import data using CSV very easily."
+
+#: admin/class-advanced-cf7-db-admin.php:350
+msgid "Search"
+msgstr "Search"
+
+#: admin/partials/contact_form_listing.php:321
+msgid "Select bulk action"
+msgstr "Select bulk action"
+
+#: admin/class-advanced-cf7-db-admin.php:349
+msgid "Type something..."
+msgstr "Type something..."
+
+#. Author of the plugin
+#: advanced-cf7-db.php
+msgid "Vsourz Digital"
+msgstr "Vsourz Digital"
+
+#: admin/partials/contact_form_listing.php:55
+#: admin/partials/import_cf7_csv.php:49
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."

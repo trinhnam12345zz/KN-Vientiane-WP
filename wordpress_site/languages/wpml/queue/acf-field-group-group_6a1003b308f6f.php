@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Thiết lập trang dự án'=>['urls'=>[],'names'=>['group-group_6a1003b308f6f-title-4d94f643e06aa091a56cf9d1d5a3008f'],'cmp'=>['wpml-string-translation',1]],'Hiển thị'=>['urls'=>[],'names'=>['field-field_6a1004236bfd9-label-7ef14c960ec70bbaa95356a517e9d964'],'cmp'=>['wpml-string-translation',1]],'Section liên hệ'=>['urls'=>[],'names'=>['field-field_6a1008b66bfdb-label-91b0ae8cb9ccb8f7b194e31b0a0af5c4'],'cmp'=>['wpml-string-translation',1]]]];

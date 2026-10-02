@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Thiết lập trang tin tức'=>['urls'=>[],'names'=>['group-group_mona_news_page-title-82f74fd2bff35c4d6903c2305d7490d8'],'cmp'=>['wpml-string-translation',1]],'Tùy chọn hiển thị cho trang danh sách tin tức.'=>['urls'=>[],'names'=>['group-group_mona_news_page-description-7254d9b5f212d9549e1c7e9099f1ba50'],'cmp'=>['wpml-string-translation',1]],'Bài viết hiển thị trên slide'=>['urls'=>[],'names'=>['field-field_mona_news_featured_posts-label-68dd8062c29c4a0057fc171644d487ad'],'cmp'=>['wpml-string-translation',1]]]];

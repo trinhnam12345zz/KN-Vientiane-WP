@@ -1,0 +1,1176 @@
+/*** End ****/
+.wpcf7 form .wpcf7-response-output {
+  border: 0;
+  margin: 15px 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+  color: #46b450;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output {
+  color: red;
+}
+
+span.price-from {
+  display: none;
+}
+.processing {
+  opacity: 0.5 !important;
+  position: relative;
+  pointer-events: none !important;
+}
+
+.processing::before {
+  height: 1em;
+  width: 1em;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  content: "";
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite;
+  background: url(../images/loader.svg) center center;
+  background-size: cover;
+  line-height: 1;
+  text-align: center;
+  font-size: 2em;
+  color: rgba(0, 0, 0, 0.75);
+  z-index: 99;
+}
+
+.hide-sitename {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+#wp-admin-bar-wp-logo img {
+  max-width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 782px) {
+  #wpadminbar {
+    position: fixed !important;
+    top: 0 !important;
+  }
+}
+
+.mona-empty {
+  color: white;
+}
+
+.ez-toc-debug-messages {
+  display: none;
+}
+
+.copy-link-btn {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.copy-tooltip {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-4px);
+
+  background: #000;
+  color: #fff;
+
+  font-size: 12px;
+  line-height: 1;
+
+  padding: 6px 10px;
+  border-radius: 6px;
+
+  white-space: nowrap;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: all 0.3s ease;
+
+  pointer-events: none;
+
+  z-index: 10;
+}
+
+.copy-tooltip.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.ct-form-box .container {
+  padding: 0;
+}
+
+.ct-form-box .fi-list {
+  margin: 2.4rem 0;
+  flex-direction: column-reverse;
+  gap: 0.8rem;
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+.recruit-action .rec-btn .btn:disabled {
+  cursor: not-allowed;
+  background: var(--Neutral-Grey-3, #d9d9d9);
+  color: var(--Neutral-Grey-2, #999);
+}
+
+[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+  background: var(--Neutral-Grey-3, #d9d9d9);
+  color: var(--Neutral-Grey-2, #999);
+}
+
+.footer-wrap .container {
+  padding: 0;
+}
+
+.footer-wrap .fi-list {
+  margin-bottom: 4rem;
+  margin-top: 7.2rem;
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+@media (min-width: 1201px) {
+  .footer-wrap .fi-list {
+    flex-direction: row-reverse;
+  }
+}
+
+.footer-copyright .ct-ss-item {
+  filter: brightness(0) invert(1);
+}
+
+.footer-copyright .ct-ss-item a {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.breadcrumb-item br {
+  display: none;
+}
+
+.field-action-pagin {
+  flex: 1;
+}
+
+form.submitting .btn {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+.footer-regist {
+  position: relative;
+}
+
+.footer-regist .wpcf7 form.invalid .wpcf7-response-output {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, calc(100% + 2rem));
+    padding: 0.2rem;
+}
+
+.current-menu-item .menu-link {
+  color: var(--Primary-Color, #b38c00);
+  padding-left: 9.4rem;
+}
+
+.current-menu-item .menu-link::before {
+  width: 6.4rem;
+}
+
+.count-list .count-item {
+  position: relative;
+}
+
+.post-top .title-28 {
+  max-width: 100%;
+}
+
+.post-img img {
+  width: 100%;
+}
+
+.faq-item.is-active .fi-inner .faq-btn {
+  filter: unset;
+}
+
+.header-nav.is-active {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+#onepage:has(.is-full.active.home-bottom) ~ #menu-fullpage li:first-child.active > a::before {
+  background: linear-gradient(270deg, #b38c00 0%, #f0e8cc 100%) !important;
+}
+
+#onepage:has(.is-full.active.home-bottom) ~ #menu-fullpage li > a::before {
+  background: #fff !important;
+}
+
+#menu-fullpage li:last-child > a .txt-animate {
+  /* background: linear-gradient(300deg, #b38c00 0%, #f0e8cc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; */
+  color: #fff;
+}
+
+.p-recruit .main {
+  padding: 0 !important;
+}
+
+.recruit-box .title-36 {
+  font-family: var(--font-pri);
+  font-weight: 700;
+}
+
+.sub-benefit .text-18 {
+  font-family: var(--font-text);
+  margin-bottom: 0.4rem;
+}
+
+.rr-slide .swiper-slide {
+  height: auto;
+}
+
+.rr-slide .recruit-item {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.recruit-item-i {
+  flex: 1;
+}
+
+/* .p-home .footer {
+  display: none;
+} */
+
+.wpcf7-not-valid-tip {
+  white-space: nowrap;
+}
+
+.footer form input {
+  height: auto;
+}
+
+/* --- Fix lỗi ảnh nền contact form tràn lên góc phải màn hình -----------------
+   Trong common.css mới, .contact-form:not(.is-full) mới có position: relative.
+   Do đó, section.contact-form.is-full bị mất position: relative, khiến cho
+   .ct-decor (ảnh cỏ xanh) bay lên top: 0, right: 0 của thẻ <main> và cao 100% trang. */
+.contact-form.is-full {
+  position: relative !important;
+}
+
+.p-field .news-group .pagination {
+  margin: 0;
+}
+
+.p-field .news-group .pagination ul.page-numbers {
+  margin-top: 4rem;
+}
+
+.mona-content table {
+  width: 100%;
+  min-width: 100%;
+}
+
+.dark-hd .header.is-fixed .custom-logo-link,
+.header.is-fixed .header-wrap .custom-logo-link {
+  filter: unset !important;
+}
+
+.header.is-fixed .header-group-right .btn {
+  border-color: #b38c00;
+  color: #b38c00;
+}
+
+.header.is-fixed .lang-select .l-selected,
+.header.is-fixed .menu-btn {
+  color: #241c00;
+}
+
+.header.is-fixed .arr-select,
+.header.is-fixed .menu-btn img {
+  filter: invert(1) brightness(0);
+}
+
+.header.is-fixed .header-group-right .btn:hover {
+  color: #fff;
+}
+
+.header.is-fixed .header-group-right .btn::after {
+  background-color: #b38c00 !important;
+}
+
+.pj-ban-img .swiper-slide .pj-img {
+      border: 0.2rem solid transparent;
+}
+
+.pj-ban-img .swiper-slide.swiper-slide-active .pj-img {
+  border-color: #B38C00;
+}
+
+.breadcrumb-list {
+  gap: 0.8rem 3.2rem;
+}
+
+.breadcrumb-item {
+  line-height: 1.5;
+}
+
+.breadcrumb-item:not(:last-child)::before {
+  content: none !important;
+  display: none !important;
+}
+
+.single-linh-vuc-hoat-dong .cate-box.cate-category, 
+.single-du-an .cate-box.cate-category {
+  display: none;
+}
+
+
+.banner-filter form input, .banner-filter form textarea, 
+.banner-filter form select {
+  margin-top: 0;
+  border: 0.1rem solid #b38c00;
+}
+
+.banner-filter .form-item:nth-child(3) {
+  width: 33%;
+}
+
+.select2-container--default .select2-selection--single {
+  background-color: transparent;
+  border-radius: 99rem;
+  border: 0.1rem solid #b38c00;
+  height: auto;
+}
+
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single, .select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple,
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single, .select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple {
+   border-radius: 99rem;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  padding: 1.2rem 3.2rem;
+  color: #b38c00;
+  line-height: 1.5;
+  font-size: 1.4rem;
+}
+
+/* .select2-container--default .select2-selection--single .select2-selection__arrow {
+  display: none;
+} */
+
+.select2-results {
+  border-radius: 1.2rem !important;
+  border: 0.1rem solid #b38c00;
+  box-shadow: unset;
+  font-size: 1.4rem;
+  background-color: #fff;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+  color: #b38c00;
+}
+
+/* Khi dropdown má» XUá»NG DÆ¯á»I: Äáº©y nÃ³ xuá»ng thÃªm 5px */
+.select2-container--default .select2-dropdown--below {
+    margin-top: 0.6rem; 
+}
+
+.p-recruit .select2-container--default .select2-dropdown--below {
+    margin-top: 0.6rem; 
+}
+
+/* Khi dropdown má» LÃN TRÃN: Äáº©y nÃ³ lÃªn thÃªm 5px */
+.select2-container--default .select2-dropdown--above {
+    margin-top: 1.4rem;
+}
+
+.statis-count {
+  font-weight: 700;
+}
+
+@media (min-width: 1201px) {
+  .p-home.dark-hd:is(.fp-viewing-kn-vientiane-group) .header .arr-select {
+    filter: invert(0) brightness(1);
+  }
+}
+
+/* .dark-hd .header.is-fixed .arr-select {
+  filter: invert(1) brightness(0);
+} */
+
+@media (max-width: 1200px) {
+  body.p-home:not(.fp-viewing-kn-vientiane-group) .header{
+    padding: 0.8rem 0;
+  }
+
+  /* .p-home.dark-hd .header .arr-select {
+    filter: invert(0) brightness(1);
+  } */
+
+  .p-home .header.is-fixed {
+    background: linear-gradient(175deg, #ecd996 0%, rgba(240, 232, 204, 0) 70%);
+    padding: 0.8rem 0;
+    background-color: #fff;
+  }
+
+  .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .lang-select .l-selected, .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .menu-btn,
+  .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .lang-select .l-selected, .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .menu-btn {
+    color: #241c00;
+  }
+
+  .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .arr-select, .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .menu-btn img {
+    filter: invert(1) brightness(0);
+  }
+
+  .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .arr-select, .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .menu-btn img {
+    filter: invert(1) brightness(0);
+  }
+
+  .p-home:not(.fp-viewing-kn-vientiane-group) .header.is-fixed .header-group-right .btn {
+    border-color: #b38c00;
+    color: #b38c00;
+  }
+
+  /* body.p-home:not(.fp-viewing-kn-vientiane-group) .header .header-wrap .custom-logo-link {
+    filter: invert(1) brightness(10);
+  } */
+
+  /* body.p-home:not(.fp-viewing-kn-vientiane-group) .header .header-group-right .btn {
+    border-color: #fff;
+    color: #fff;
+  } */
+
+  /* body.p-home:not(.fp-viewing-kn-vientiane-group) .header .menu-btn,
+  body.p-home:not(.fp-viewing-kn-vientiane-group) .header .lang-select .l-selected {
+    color: #fff;
+  } */
+
+  /* body.p-home:not(.fp-viewing-kn-vientiane-group) .header .menu-btn img {
+    filter: invert(0) brightness(1);
+  } */
+}
+ 
+@media (max-width: 1024px) {
+  .btn-open-mb {
+    left: unset;
+    right: 1.2rem;
+  }
+
+  .cate-box {
+    padding: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .recruit-main {
+    padding-bottom: 0;
+  }
+
+  .post-type-archive-tuyen-dung .banner-main {
+    min-height: auto;
+    padding-bottom: 6rem;
+  }
+
+  .post-type-archive-tuyen-dung .banner-info {
+    margin-top: 4.2rem;
+  }
+  
+  .post-type-archive-tuyen-dung .banner-main .breadcrumb + .container {
+    flex: unset;
+  }
+
+  .post-type-archive-tuyen-dung .banner-filter {
+    margin-top: 2.4rem;
+  }
+
+  .recruit-main .recruit-inner {
+    flex-direction: column;
+    row-gap: 0;
+  }
+  
+  .tab-item {
+    border-color: transparent;
+  }
+  
+  .current-menu-item .menu-link {
+    padding-left: 3.4rem;
+  }
+
+  .current-menu-item .menu-link::before {
+    width: 2.4rem
+  }
+
+  .field-item .img-box {
+    height: 32rem;
+  }
+
+  .p-home .contact-form .ct-form-inner .ct-form-box {
+    gap: 1.6rem;
+  }
+
+  .footer-wrap .fi-list {
+    margin-top: 0;
+  }
+
+  .our-system {
+    padding-top: 0;
+    padding-bottom: 8rem;
+  }
+
+  .system-list-slide .swiper {
+    padding: 1.6rem;
+  }
+
+  .activity::before {
+    content: none;
+  }
+
+  .post-info {
+    align-items: start;
+  }
+
+  .intro-top {
+    padding-top: 0;
+  }
+
+  .intro-top::before {
+    width: 50%;
+  }
+}
+
+@media (min-width: 481px) {
+  .intro-end-l .left_image {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-regist .wpcf7 form.invalid .wpcf7-response-output {
+    display: none;
+  }
+
+  .footer-regist .wpcf7-not-valid-tip {
+    padding: 0.2rem;
+    line-height: 1.4;
+    bottom: -2.8rem;
+  }
+
+  #onepage > .is-full {
+    padding-top: 4rem;
+  }
+
+  .intro-end-l {
+    display: flex;
+    gap: 0.8rem;
+  }
+
+  .intro-end-l .ie-img {
+    width: 50%;
+    padding-top: calc(170 / 280 * 100%);
+  }
+
+  .news-item .n-short-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .news-req {
+    padding-bottom: 0;
+  }
+
+  .ab-history {
+    overflow: hidden;
+    padding: 0.8rem 0;
+  }
+
+  .year-txt {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .year-txt .desc {
+    font-size: 1.4rem;
+  }
+
+  .yel-content .img-box {
+    margin-top: 0;
+  }
+
+  .year-exp-list::before,
+  .year-point:not(:first-child)::before {
+    left: 2rem;
+  }
+
+  .year-list {
+    margin-top: 3.2rem;
+  }
+
+  .yel-item,
+  .yel-item:nth-child(odd) {
+    transform: translateX(0);
+    margin-left: 2rem !important;
+  }
+
+  .intro-img {
+    display: none;
+  }
+
+  .intro-end {
+    flex-direction: column-reverse;
+  }
+
+  .select2-container--default .select2-dropdown--below {
+    margin-top: 5.6rem; 
+  }
+}
+
+.contact-map .map-box-inner .main-tt {
+  margin-bottom: 2.4rem;
+}
+
+.contact-map .map-box-inner p,
+.contact-map .map-box-inner ul {
+  margin-bottom: 1.6rem;
+}
+
+.contact-map .map-box-inner ul li {
+  padding-left: 2.4rem;
+  position: relative;
+}
+
+.contact-map .map-box-inner ul li::before {
+  content: "";
+  position: absolute;
+  top: 0.7rem;
+  left: 1rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: rgb(57 50 27);
+}
+
+.contact-map .map-box-inner b,
+.contact-map .map-box-inner strong {
+  font-weight: bold;
+}
+
+.contact-map .map-box-inner .container {
+  padding: 0;
+}
+
+.contact-map .map-box-inner .fi-list {
+  transform: none !important;
+  opacity: 1 !important;
+  gap: 0.8rem;
+  flex-direction: column-reverse;
+}
+
+/* Trang máº·c Äá»nh (page.php) dÃ¹ng láº¡i bá» cá»¥c cá»§a trang chi tiáº¿t Tin tá»©c.
+   news.css chá»t cá»©ng cá»t ná»i dung á» 9/12 Äá» chá»«a chá» cho sidebar, nÃªn trang nÃ o
+   khÃ´ng cÃ³ sidebar (ChÃ­nh sÃ¡ch, Äiá»u khoáº£n...) pháº£i tráº£ láº¡i Äá»§ bá» ngang, khÃ´ng
+   thÃ¬ há»¥t máº¥t 1/4 khung bÃªn pháº£i. */
+.news-d-desc.is-no-aside .news-d-txt {
+  width: 100%;
+}
+
+#menu-fullpage {
+  left: 3%;
+}
+
+@media (max-width: 768px) {
+  .home-bot-inner {
+    border-radius: 0;
+  }
+}
+
+/* ===== Language switcher dropdown (WPML) ===== */
+.lang-btn.js-lang {
+  position: relative;
+}
+
+.lang-btn.js-lang .lang-select {
+  cursor: pointer;
+}
+
+/* Per-language flag icon (overrides the generic .lang-select > img sizing) */
+.lang-flag {
+  width: 2.4rem !important;
+  height: 1.6rem !important;
+  object-fit: cover;
+  border-radius: 0.2rem;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.lang-btn.js-lang .arr-select {
+  transition: transform 0.25s ease;
+}
+
+.lang-btn.js-lang.is-open .arr-select {
+  transform: rotate(180deg);
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: calc(100% + 0.8rem);
+  left: 0;
+  min-width: 8rem;
+  margin: 0;
+  padding: 0.4rem 0;
+  list-style: none;
+  background: #fff;
+  border-radius: 0.6rem;
+  box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.18);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-0.6rem);
+  transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+  z-index: 120;
+}
+
+.lang-btn.js-lang.is-open .lang-dropdown {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.lang-dropdown li {
+  margin: 0;
+}
+
+.lang-dropdown li.is-active {
+  display: none;
+}
+
+.lang-dropdown li a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.7rem 1.6rem;
+  font-family: var(--font-pri);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #241c00;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.lang-dropdown li a:hover {
+  background: #f2e9c8;
+  color: #b38c00;
+}
+
+/* =============================================================
+   FEEDBACK Äá»¢T 1 â 03/08/2026
+   Override cho CSS trong /template/assets/css (náº¡p á» priority 2,
+   file nÃ y náº¡p á» priority 10 nÃªn luÃ´n tháº¯ng â khÃ´ng cáº§n !important).
+   Chi tiáº¿t: feedback/feedback_dot_1/tong-hop-feedback-ui.md
+   ============================================================= */
+
+/* --- #7. Bá» lá»p má» gradient á» áº£nh ban lÃ£nh Äáº¡o -----------------
+   ÄÃ¨: about.css:892 (.manager-avt::before)
+   Gradient tráº¯ng Äang che máº¥t pháº§n ngá»±c Ã¡o + huy chÆ°Æ¡ng. */
+.manager-avt::before {
+  content: none;
+}
+
+/* --- #8. Popup ban lÃ£nh Äáº¡o: crop vuÃ´ng, bá» ná»n be ------------
+   ÄÃ¨: about.css:969 (.big-avt > img) vÃ  about.css:974 (.big-avt::before)
+   Khung .big-avt ÄÃ£ cÃ³ sáºµn aspect-ratio 1/1 + border-radius nÃªn giá»¯ nguyÃªn,
+   chá» cáº§n áº£nh láº¥p Äáº§y khung vÃ  bá» ná»n #e8d8bd Äá» khÃ´ng láº¡c tÃ´ng khi thay áº£nh. */
+.big-avt::before {
+  content: none;
+}
+
+.big-avt > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top; /* trÃ¡nh cáº¯t máº¥t Äáº§u á» áº£nh chÃ¢n dung dá»c */
+}
+
+/* --- #10. Logo Äá»i tÃ¡c khÃ´ng bá» bÃ³p khi thÃªm nhiá»u ------------
+   ÄÃ¨: about.css:313 (.logo-list) vÃ  about.css:325 (.logo-item)
+   Báº£n gá»c chá» wrap á» <=480px, desktop dá»n 1 hÃ ng nÃªn flex-shrink
+   bÃ³p logo láº¡i (Äo ÄÆ°á»£c: 10 logo -> má»i cÃ¡i cÃ²n 26px).
+   Pháº£i chÃ©p láº¡i Äá»§ breakpoint vÃ¬ media query khÃ´ng cá»ng specificity. */
+.logo-list {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4rem 8rem;
+}
+
+.logo-item {
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .logo-list {
+    gap: 2.4rem 4rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo-list {
+    gap: 1.2rem 2.4rem;
+  }
+}
+
+/* --- #12. Hero ná»n video / YouTube --------------------------------
+   .slogan-bg vá»n chá» style cho <img> (common.css:2242). Video vÃ  iframe
+   YouTube cáº§n phá»§ kÃ­n y há»t, vÃ  náº±m dÆ°á»i lá»p phá»§ Äen .slogan-bg::before. */
+.mona-hero-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.mona-hero-yt {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none; /* ná»n trang trÃ­, khÃ´ng cho báº¥m vÃ o iframe */
+}
+
+/* iframe YouTube luÃ´n 16:9, phÃ³ng to theo cáº¡nh dÃ i Äá» phá»§ kÃ­n má»i tá» lá» khung */
+.mona-hero-yt iframe {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 56.25vw;
+  min-width: 177.78vh;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  border: 0;
+}
+
+/* --- #13. Popup video á» section giá»i thiá»u (trang chá»§) -------------
+   .video-box / .video-pop / .video-btn vá»n náº±m trong about.css, mÃ  trang chá»§
+   khÃ´ng náº¡p file ÄÃ³ (CommonHook.php:579-584). ChÃ©p sang ÄÃ¢y Äá» dÃ¹ng chung.
+   Giá»¯ nguyÃªn giÃ¡ trá» cá»§a báº£n gá»c (about.css:159-199) Äá» 2 trang trÃ´ng giá»ng nhau. */
+.video-box {
+  max-width: 80vw;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  padding: 0;
+}
+
+.video-box iframe,
+.video-box video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-pop {
+  width: 100%;
+  height: 100%;
+}
+
+.video-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 7rem;
+  height: 7rem;
+  z-index: 2;
+}
+
+.video-btn::before,
+.video-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  animation: ripple 2.4s linear infinite;
+}
+
+.video-btn::after {
+  animation-delay: 1.2s;
+}
+
+@keyframes ripple {
+  0% { transform: scale(1); opacity: 0; }
+  10% { opacity: 1; }
+  100% { transform: scale(2); opacity: 0; }
+}
+
+/* .intro-img .img-box gá»c lÃ  <div>; khi cÃ³ video nÃ³ thÃ nh <a> nÃªn cáº§n
+   bÃ¡o con trá» báº¥m ÄÆ°á»£c vÃ  neo cho .video-btn Äá»nh vá» theo nÃ³. */
+.intro-img .img-box.has-video {
+  display: block;
+  cursor: pointer;
+}
+
+/* --- #14, #15, #16. CÃ¡c tháº» giá» báº¥m ÄÆ°á»£c ------------------------
+   .sys-item / .project-item / .logo-item vá»n lÃ  <div>; khi cÃ³ link trong ACF
+   chÃºng ÄÆ°á»£c render thÃ nh <a class="... is-linked">. Chá» style cho .is-linked
+   Äá» tháº» khÃ´ng cÃ³ link giá»¯ nguyÃªn hÃ nh vi cÅ© (khÃ´ng con trá» báº¥m, khÃ´ng hover). */
+.sys-item.is-linked,
+.project-item.is-linked,
+.logo-item.is-linked {
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.sys-item.is-linked:hover,
+.project-item.is-linked:hover {
+  transform: translateY(-0.6rem);
+}
+
+.logo-item.is-linked {
+  display: flex;
+}
+
+.logo-item.is-linked:hover {
+  opacity: 0.7;
+}
+
+/* Giá»¯ nguyÃªn hiá»u á»©ng zoom áº£nh sáºµn cÃ³ khi hover, khÃ´ng ÄÃ¨ lÃªn */
+.sys-item.is-linked:focus-visible,
+.project-item.is-linked:focus-visible,
+.logo-item.is-linked:focus-visible {
+  outline: 2px solid #b38c00;
+  outline-offset: 3px;
+}
+
+/* --- #11. Font Phetsarath cho tiáº¿ng LÃ o ---------------------------
+   TrÆ°á»c ÄÃ¢y site chá» náº¡p Open Sans + Trajan Pro 3, cáº£ hai Äá»u KHÃNG cÃ³ glyph
+   LÃ o (U+0E81âU+0EDF). TrÃ¬nh duyá»t pháº£i fallback vá» font há» thá»ng, mÃ  font gáº§n
+   nháº¥t thÆ°á»ng lÃ  font ThÃ¡i â ra ÄÃºng hiá»n tÆ°á»£ng "láº«n tiáº¿ng ThÃ¡i" khÃ¡ch pháº£n Ã¡nh.
+
+   Nguá»n: Google Fonts (Phetsarath v3, giáº¥y phÃ©p OFL).
+
+   unicode-range lÃ  Äiá»m máº¥u chá»t: giá»i háº¡n Phetsarath CHá» dÃ¹ng cho kÃ½ tá»± LÃ o.
+   Báº£n trÃªn Google Fonts khai bÃ¡o kÃ¨m cáº£ dáº£i Latin U+0000-00FF â náº¿u bÃª nguyÃªn
+   sang ÄÃ¢y thÃ¬ Phetsarath sáº½ chiáº¿m luÃ´n chá»¯ Latin vÃ  Äá»i diá»n máº¡o toÃ n site.
+   Bá» dáº£i Latin Äi thÃ¬ tiáº¿ng Viá»t/Anh váº«n giá»¯ nguyÃªn Open Sans vÃ  Trajan Pro 3. */
+@font-face {
+  font-family: "Phetsarath";
+  src: url("../fonts/Phetsarath/Phetsarath-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+
+@font-face {
+  font-family: "Phetsarath";
+  src: url("../fonts/Phetsarath/Phetsarath-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0E81-0EDF, U+200C-200D, U+25CC;
+}
+
+/* ÄÃ¨ 2 biáº¿n font gá»c (common.css:131-132). Äáº·t Phetsarath Äá»©ng Äáº§u Äá» nÃ³ tháº¯ng
+   á» kÃ½ tá»± LÃ o; nhá» unicode-range, kÃ½ tá»± Latin váº«n rÆ¡i xuá»ng font phÃ­a sau. */
+:root {
+  --font-pri: "Phetsarath", "Trajan Pro 3", sans-serif;
+  --font-text: "Phetsarath", "Open Sans", sans-serif;
+}
+
+/* --- #9. UI thÃ´ng bÃ¡o gá»­i form thÃ nh cÃ´ng ------------------------
+   TrÆ°á»c ÄÃ¢y tráº¡ng thÃ¡i .sent khÃ´ng cÃ³ style riÃªng nÃªn rÆ¡i vá» rule máº·c Äá»nh
+   á» Äáº§u file nÃ y (mÃ u #46b450 cá»§a WordPress, 12px), vÃ  náº±m inline ngay cáº¡nh
+   nÃºt "ÄÄng kÃ½" â Äo ÄÆ°á»£c chá» cÃ²n 126px chá» trá»ng nÃªn chá»¯ vá»¡ thÃ nh 2 dÃ²ng
+   trÃ n ra ngoÃ i khung form.
+
+   ÄÆ°a xuá»ng dÃ²ng riÃªng bÃªn dÆ°á»i Ã´ nháº­p, canh giá»¯a, dÃ¹ng tÃ´ng xanh Äáº­m hÆ¡n cho
+   há»£p ná»n kem. CÃ¹ng cÃ¡ch Äá»nh vá» vá»i tráº¡ng thÃ¡i .invalid ÄÃ£ cÃ³ sáºµn á» trÃªn. */
+.footer-regist .wpcf7 form.sent .wpcf7-response-output {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  transform: translateY(calc(100% + 1.2rem));
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  color: #2f7d32;
+}
+
+/* Báº£n .invalid Äang bá» áº©n á» mobile (mona-custom.css:579) â thÃ´ng bÃ¡o thÃ nh cÃ´ng
+   thÃ¬ pháº£i luÃ´n tháº¥y, náº¿u khÃ´ng ngÆ°á»i dÃ¹ng khÃ´ng biáº¿t ÄÃ£ gá»­i ÄÆ°á»£c hay chÆ°a. */
+@media (max-width: 480px) {
+  .footer-regist .wpcf7 form.sent .wpcf7-response-output {
+    display: block;
+    font-size: 1.3rem;
+  }
+}
+
+/* --- Bá» chuyá»n ngÃ´n ngá»¯ á» footer ---------------------------------
+   Markup má»i trong footer.php, Äáº·t trong .fc-end cáº¡nh social vÃ  link.
+   Thay cho widget máº·c Äá»nh cá»§a WPML (nÃ³ render ngoÃ i <footer>, khÃ´ng style ÄÆ°á»£c). */
+.fc-lang {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem 1.6rem;
+}
+
+.fc-lang-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: inherit;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.fc-lang-item:hover,
+.fc-lang-item:focus-visible {
+  opacity: 1;
+}
+
+.fc-lang-item.is-active {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.fc-lang-item .lang-flag {
+  width: 2rem;
+  height: 1.4rem;
+  object-fit: cover;
+  border-radius: 0.2rem;
+  flex: none;
+}
+
+/* Mobile: áº©n háº³n.
+   TrÃªn Äiá»n thoáº¡i ÄÃ£ cÃ³ nÃºt chá»n ngÃ´n ngá»¯ ngay trÃªn header rá»i, Äá» thÃªm má»t bá»
+   ná»¯a dÆ°á»i footer vá»«a thá»«a vá»«a bÃ³p .fc-end (vá»n lÃ  flex-row nowrap) lÃ m thanh
+   copyright vá»¡ dÃ²ng. áº¨n á» toÃ n bá» cÃ¡c trang, ká» cáº£ trang chá»§. */
+@media screen and (max-width: 768px) {
+  .fc-lang {
+    display: none;
+  }
+}
+
+/* --- #5. Slide Bá»n vá»¯ng: Äá»i sang 1 tháº» / 1 mÃ n hÃ¬nh --------------
+   Báº£n cÅ© dÃ¹ng coverflow vá»i slidesPerView "auto": tháº» active rá»ng 67.2%, cÃ¡c
+   tháº» cÃ²n láº¡i 15%, cá»ng thÃªm cÆ¡ cháº¿ dá»ch .swiper-wrapper thá»§ cÃ´ng qua biáº¿n
+   --offset-left (JS tÃ­nh lÃºc init, stable.css:88-98 nhÃ¢n vá»i 0.245 / -0.145 /
+   0.635 tÃ¹y tráº¡ng thÃ¡i .is-active).
+
+   Bá» cá»¥c ÄÃ³ lá»ch ngay khi Äá»i slide vÃ¬ --offset-left giá»¯ sá» cá»§a slide Äáº§u.
+   ÄÃ£ thá»­ tÃ­nh láº¡i giá»¯a chá»«ng -> wrapper vÄng háº³n ra ngoÃ i khung, há»ng náº·ng hÆ¡n.
+   CÃ¡c há» sá» kia ÄÆ°á»£c canh cháº¿t theo giÃ¡ trá» lÃºc init nÃªn khÃ´ng vÃ¡ ÄÆ°á»£c.
+
+   Äá»i sang 1 tháº» chiáº¿m trá»n bá» ngang: khÃ´ng cÃ²n con sá» nÃ o pháº£i khá»p vá»i con sá»
+   nÃ o, nÃªn KHÃNG THá» há» mÃ©p á» báº¥t ká»³ vá» trÃ­ hay bá» rá»ng mÃ n hÃ¬nh nÃ o.
+   Config Swiper á» SwiperModule.js, nÃºt Äiá»u hÆ°á»ng á» template-stable.php. */
+
+/* VÃ´ hiá»u hÃ³a cÆ¡ cháº¿ dá»ch wrapper thá»§ cÃ´ng cá»§a stable.css */
+.overview .swiper-wrapper,
+.overview .swiper-wrapper:has(.swiper-slide.is-active:not(.swiper-slide-active):not(.swiper-slide-duplicate)),
+.overview .swiper-wrapper:has(.swiper-slide-duplicate.is-active.swiper-slide-active) {
+  left: 0 !important;
+}
+
+/* KHÃNG Äáº·t width cho .overview .swiper-slide á» ÄÃ¢y.
+   Swiper gÃ¡n width inline theo slidesPerView (1.08 / 1.12) Äá» tháº» káº¿ tiáº¿p lÃ³ ra.
+   Rule gá»c trong stable.css (.swiper-slide 15%, .swiper-slide-active 67.2%)
+   khÃ´ng cÃ³ !important nÃªn style inline cá»§a Swiper ÄÃ£ tháº¯ng sáºµn â thÃªm rule
+   !important á» ÄÃ¢y sáº½ ÄÃ¨ ngÆ°á»£c láº¡i vÃ  lÃ m vá»¡ bá» cá»¥c. */
+
+/* Tháº» nÃ o cÅ©ng lÃ  tháº» Äang xem nÃªn hiá»n khung ná»i dung, áº©n tiÃªu Äá» dá»c */
+.overview .swiper-slide .overview-text {
+  opacity: 0 !important;
+}
+
+.overview .swiper-slide .overview-content {
+  opacity: 1 !important;
+}
+
+/* NÃºt Äiá»u hÆ°á»ng â báº¯t buá»c pháº£i cÃ³ vÃ¬ báº£n cÅ© chuyá»n slide báº±ng cÃ¡ch
+   báº¥m vÃ o tháº» bÃªn cáº¡nh, mÃ  giá» chá» cÃ²n 1 tháº» trÃªn mÃ n hÃ¬nh */
+.overview-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+/* Ná»n vÃ ng Äáº·c, mÅ©i tÃªn tráº¯ng.
+   Báº£n Äáº§u Äá» ná»n trong suá»t, mÃ  file arr-slide.svg vá»n lÃ  mÅ©i tÃªn MÃU TRáº®NG â
+   Äáº·t trÃªn ná»n trang mÃ u tráº¯ng thÃ¬ chá» cÃ²n tháº¥y vÃ²ng trÃ²n rá»ng, khÃ¡ch chá»¥p mÃ n
+   hÃ¬nh bÃ¡o láº¡i ÄÃºng chá» nÃ y. TÃ´ ná»n vÃ ng vá»«a láº¥y láº¡i Äá» tÆ°Æ¡ng pháº£n vá»«a dÃ¹ng
+   ÄÆ°á»£c trÃªn cáº£ ná»n sÃ¡ng láº«n ná»n áº£nh. */
+.overview-nav > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4.8rem;
+  height: 4.8rem;
+  background: #b38c00;
+  border: 0.1rem solid #b38c00;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.overview-nav > div:hover,
+.overview-nav > div:focus-visible {
+  background: #8c6d00;
+  border-color: #8c6d00;
+}
+
+.overview-nav > div.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.overview-nav .next img {
+  transform: rotate(180deg);
+}
+
+.overview-pagi {
+  margin-top: 1.6rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .overview-nav > div {
+    width: 4rem;
+    height: 4rem;
+  }
+}
+
+

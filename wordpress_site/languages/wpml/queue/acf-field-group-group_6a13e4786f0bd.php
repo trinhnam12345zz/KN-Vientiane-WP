@@ -1,0 +1,2 @@
+<?php
+return ['items'=>['Thiết lập trang liên hệ'=>['urls'=>[],'names'=>['group-group_6a13e4786f0bd-title-3483a8d5d511108310d13fcb7a41e732'],'cmp'=>['wpml-string-translation',1]],'Section Form Liên hệ'=>['urls'=>[],'names'=>['field-field_6a13e48fba3a3-label-4a0725911be1c2ee6102fc5c60f16b10'],'cmp'=>['wpml-string-translation',1]],'Hiển thị'=>['urls'=>[],'names'=>['field-field_6a45d9b041af1-label-7ef14c960ec70bbaa95356a517e9d964'],'cmp'=>['wpml-string-translation',1]]]];
